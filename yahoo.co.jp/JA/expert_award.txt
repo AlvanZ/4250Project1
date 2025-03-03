@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noarchive, max-image-preview:large">
+    <script>
+var TLDataContext = {
+  ual : {
+    pageview : {
+
+      opttype : 'pc',
+
+      content_id : '',
+      id_type : '',
+      nopv : 'false',
+      mtestid : '',
+      ss_join_id : '',
+      ss_join_id_type : '',
+      hierarchy_id : ''
+    }
+  }
+};
+</script>
+<script async src="https://s.yimg.jp/images/ds/managed/1/managed-ual.min.js?tk=5ae7ece4-3b93-4890-8f24-ce16ddd756ed&service=news"></script>
+    <title>ベスト エキスパート 2025 - Yahoo!ニュース</title>
+    <meta
+      name="description"
+      content="Yahoo!ニュース エキスパートに参加する専門家やジャーナリスト、クリエイターの中で、2024年に新しい気づきや考えるヒント、行動につながる情報といった世界観を強く体現する発信を行ったエキスパートを表彰します。もっとも優れた記事やコメント、動画等の作品を「グランプリ」として編集部および選考委員により選出、年間を通じ理想的な発信活動を行ったエキスパートを「特別賞」として編集部により選出し、2025年2月26日（水）に発表しました。"
+    />
+    <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "Yahoo!ニュース",
+      "alternateName" : "Yahoo!ニュース エキスパート",
+      "url" : "https://news.yahoo.co.jp/expert/award/"
+    }
+    </script>
+    <meta
+      property="og:title"
+      content="ベスト エキスパート 2025 - Yahoo!ニュース"
+    />
+    <meta property="og:site_name" content="Yahoo!ニュース" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta
+      property="og:description"
+      content="Yahoo!ニュース エキスパートに参加する専門家やジャーナリスト、クリエイターの中で、2024年に新しい気づきや考えるヒント、行動につながる情報といった世界観を強く体現する発信を行ったエキスパートを表彰します。もっとも優れた記事やコメント、動画等の作品を「グランプリ」として編集部および選考委員により選出、年間を通じ理想的な発信活動を行ったエキスパートを「特別賞」として編集部により選出し、2025年2月26日（水）に発表しました。"
+    />
+    <meta property="og:url" content="https://news.yahoo.co.jp/expert/award/" />
+    <meta property="og:image" content="https://s.yimg.jp/images/expert/feature/award/2025/main/assets/ogp/ogp.jpg" />
+    <meta property="fb:app_id" content="276725822409153" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="ベスト エキスパート 2025 - Yahoo!ニュース"
+    />
+    <meta
+      name="twitter:description"
+      content="Yahoo!ニュース エキスパートに参加する専門家やジャーナリスト、クリエイターの中で、2024年に新しい気づきや考えるヒント、行動につながる情報といった世界観を強く体現する発信を行ったエキスパートを表彰します。もっとも優れた記事やコメント、動画等の作品を「グランプリ」として編集部および選考委員により選出、年間を通じ理想的な発信活動を行ったエキスパートを「特別賞」として編集部により選出し、2025年2月26日（水）に発表しました。"
+    />
+    <meta name="twitter:site" content="@YahooNewsExpert" />
+    <meta name="twitter:image" content="https://s.yimg.jp/images/expert/feature/award/2025/main/assets/ogp/ogp.jpg" />
+    <link rel="icon" href="https://s.yimg.jp/c/icon/s/bsc/2.0/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="https://s.yimg.jp/c/icon/s/bsc/2.0/news120.png" />
+    <link
+      rel="stylesheet"
+      href="https://s.yimg.jp/images/riff/riff-react/1.12.2/css/riff.min.css"
+    />
+    <script type="module" crossorigin src="https://s.yimg.jp/images/expert/feature/award/2025/main/scripts/index_v1.0.0.js"></script>
+  </head>
+  <body>
+    <style>
+      .Alert{background-color:#fff5e0;padding:20px;margin-bottom:40px;font-size:16px}.Alert_title{font-weight:bold;font-size:18px}.Alert_text{margin-top:10px;font-size:14px}.Alert_link{color:#1a75ff}.IeAlert{display:none;}@media all and (-ms-high-contrast: none) {.IeAlert{display:block;}}
+    </style>
+
+    <div class="Emg">
+      
+        <script defer src="https://s.yimg.jp/images/templa/mhdemg/v2/templa.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        if (typeof YAHOO !== 'undefined' && typeof YAHOO.JP !== 'undefined' && typeof YAHOO.JP.templa.EMG !== 'undefined' && typeof YAHOO.JP.templa.EMG.load !== 'undefined') {
+            YAHOO.JP.templa.EMG.load({"device_id":"pc"});
+        }
+    }, false);
+</script>
+<div id="TEMPLA_EMG"></div>
+      
+    </div>
+
+    <noscript>
+      <div class="JsOffAlert">
+        <div class="Alert" role="Alert">
+          <div class="Alert_head">
+            <p class="Alert_title">現在JavaScriptの設定が無効となっています。</p>
+          </div>
+          <p class="Alert_text">
+            すべての機能を利用するためには、JavaScriptを有効にする必要があります。
+            <a href="https://www.yahoo-help.jp/app/noscript" class="Alert_link" target="_blank">JavaScriptの設定を「有効」にするにはこちら</a>をご覧ください。
+          </p>
+        </div>
+      </div>
+    </noscript>
+
+    <div class="Alert IeAlert" role="Alert">
+      <div class="Alert_head">
+        <p class="Alert_title">お使いのInternet Explorerはご利用いただけません。</p>
+      </div>
+      <p class="Alert_text">
+        別のブラウザーからご利用ください。
+      </p>
+    </div>
+
+    <div id="root"></div>
+
+  </body>
+</html>

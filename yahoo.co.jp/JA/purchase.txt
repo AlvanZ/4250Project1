@@ -1,0 +1,146 @@
+<!doctype html>
+<html data-n-head-ssr lang="ja" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22ja%22%7D%7D">
+  <head >
+    <title>ログイン - Yahoo! JAPAN</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" data-hid="description" name="description" content=""><meta data-n-head="ssr" name="format-detection" content="telephone=no"><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="robots" content="noindex,nofollow,noarchive"><meta data-n-head="ssr" name="format-detection" content="telephone=no"><meta data-n-head="ssr" name="format-detection" content="email=no"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="https://s.yimg.jp/c/icon/s/bsc/2.0/favicon.ico"><script data-n-head="ssr" src="https://s.yimg.jp/images/templa/mhdemg/v2/templa.min.js" defer></script><script data-n-head="ssr" src="https://s.yimg.jp/images/ds/cl/ds-custom-logger-1.0.0.min.js"></script><script data-n-head="ssr" src="https://s.yimg.jp/images/ds/yas/ya-1.6.3.min.js" async></script><script data-n-head="ssr">var TLDataContext = {
+              ual : {
+                pageview : {
+                opttype : 'pc',
+                content_id : '',
+                id_type : '',
+                nopv : 'false',
+                mtestid : '',
+                ss_join_id : '',
+                ss_join_id_type : ''
+                }
+              }
+            };
+            window.yacmds = window.yacmds || [];
+            window.ya = window.ya || function(){yacmds.push(arguments)};
+            ya('init', 'f38f02ab87fb428698c55dd029412eb4', '32de110a-2ab4-421a-8ba2-1e2b7c1ec7f5');
+            ya('hit', 'pageview,webPerformance');
+          </script><script data-n-head="ssr" src="https://s.yimg.jp/images/ds/managed/1/managed-ual.min.js?tk=db7d8481-9815-4e08-abda-404cac5d6277&service=login" async></script><link rel="preload" href="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/runtime.js" as="script"><link rel="preload" href="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/commons/app.js" as="script"><link rel="preload" href="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/common.css" as="style"><link rel="preload" href="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/common.js" as="script"><link rel="preload" href="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/app.js" as="script"><link rel="stylesheet" href="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/common.css">
+  </head>
+  <body >
+    <div data-server-rendered="true" id="__nuxt"><div id="__layout"><div id="wrapper"><header><div class="ar-header-pc_header_1ktem"><div class="ar-header-pc_logo_2qiYN"><a href="https://www.yahoo.co.jp" data-cl-params="_cl_link:logo;_cl_position:1"><img src="https://s.yimg.jp/c/logo/f/2.0/yj_r_34_2x.png" width="136" height="34" alt="Yahoo! JAPAN"></a></div><!----><a href="https://support.yahoo-net.jp/PccLogin/s/" target="_blank" rel="noopener noreferrer" data-cl-params="_cl_link:help;_cl_position:5" class="ar-header-pc_help_3-lay">ヘルプ</a></div> <div id="TEMPLA_EMG"></div></header> <div class="wrapper" data-v-33fd19f8 data-v-4d831acd><div class="contentsWrapper" data-v-33fd19f8><div id="notices" class="pc" data-v-33fd19f8><div id="id_signin_announce_pc"></div> <!----></div> <div class="contents" data-v-33fd19f8><div class="contentsArea" data-v-33fd19f8 data-v-4d831acd><div id="ad1" class="ad" data-v-33fd19f8 data-v-4d831acd></div> <div class="loginAreaBox" data-v-237c557c data-v-4d831acd><!----> <!----> <div id="content" class="loginAreaWrapper c01 t01" data-v-237c557c><div class="loginAreaBox" data-v-237c557c><div class="stack loginArea" data-v-237c557c><div style="display:none;" data-v-0e4dd6cb data-v-237c557c><button type="button" class="backBtn" data-v-0e4dd6cb>back</button></div> <form name="login_form" action="/config/attempt" method="post" data-v-237c557c><div src="yn" display="" trans="302c1c07-c064-4661-95fc-e50ff481a882" class="stack" data-v-a93b5ccc data-v-237c557c><h1 class="title" data-v-a93b5ccc>ログイン</h1> <div class="stack" data-v-ad5da95c data-v-a93b5ccc><div class="input ar-input_wrapper_1-8kT" data-v-14246d24 data-v-ad5da95c><!----><div class="ar-input_inputWrapper_2P1ca" data-v-14246d24><!----><div class="ar-input_inputArea_322M6" data-v-14246d24><input aria-errormessage="login_handle-error" aria-describedby="login_handle-hint" type="text" id="login_handle" placeholder="携帯電話番号/メールアドレス/ID" value="" data-v-14246d24><!----><span class="ar-input_clear_1OW3p" style="display:none;" data-v-14246d24><a data-v-14246d24><span data-v-14246d24>clear</span></a></span></div><div id="login_handle-error" class="ar-input_errMsg_2AhTC" style="display:none;" data-v-14246d24></div><!----></div></div> <div data-v-ad5da95c><div class="ar-button_button_J2jv2 ar-button_medium_1i9SB ar-button_normal_1m_gx ar-button_fullwidth_19rcY" data-v-ad5da95c><button type="button">次へ</button><div class="ar-button_loadingWrapper_2hRCf" style="display:none;"><div class="ar-button_loading_3OUSE">Loading</div></div></div></div></div> <div class="arLink" data-v-b86b7dfe data-v-a93b5ccc><a href="https://login.yahoo.co.jp/ar/top?src=yn&amp;done=https%3A%2F%2Fnews.yahoo.co.jp%2Fpurchase&amp;auth_lv=1" data-v-b86b7dfe>ログインできない場合</a></div> <div class="ar-button_button_J2jv2 ar-button_small_1-WyF ar-button_other_1z0Xn ar-button_fullwidth_19rcY" data-v-a93b5ccc><a href="https://account.edit.yahoo.co.jp/signup?done=https%3A%2F%2Fnews.yahoo.co.jp%2Fpurchase&amp;src=yn&amp;auth_lv=1">新規取得</a><!----></div></div> <div class="stack" style="display:none;" data-v-237c557c><div class="stack" data-v-0e697e26><!----> <!----> <div data-v-0e697e26><div data-v-0e697e26><input id="lang" type="hidden" name="lang" value=""> <input type="hidden" name="screen_height" value=""> <input type="hidden" name="screen_width" value=""> <input id="plugins" type="hidden" name="plugins" value=""> <input type="hidden" name="canvas_image" value=""> <input id="webdriver" type="hidden" name="webdriver" value=""> <input id="historyLength" type="hidden" name="history_length" value=""></div> <input type="hidden" name="alias" value="" data-v-0e697e26> <input type="hidden" name="handle" value="" data-v-0e697e26> <input type="hidden" name="auth_method" value="" data-v-0e697e26> <input type="hidden" name="auth_list" value="" data-v-0e697e26> <input type="hidden" name="required_auth_list" value="" data-v-0e697e26> <input type="hidden" name="fido" value="" data-v-0e697e26> <input type="hidden" name=".tries" value="" data-v-0e697e26> <input type="hidden" name=".cpt" value="" data-v-0e697e26> <input type="hidden" name="trans" value="302c1c07-c064-4661-95fc-e50ff481a882" data-v-0e697e26> <input type="hidden" name="token" value="" data-v-0e697e26> <input type="hidden" name="dest" value="" data-v-0e697e26> <input type="hidden" name="inactive_pw" value="" data-v-0e697e26> <input type="hidden" name=".done" value="https://news.yahoo.co.jp/purchase" data-v-0e697e26> <input type="hidden" name=".src" value="yn" data-v-0e697e26> <input type="hidden" name=".keep" value="" data-v-0e697e26> <input type="hidden" name="ckey" value="" data-v-0e697e26> <input type="hidden" name=".display" value="" data-v-0e697e26> <input type="hidden" name=".yby" value="" data-v-0e697e26> <input type="hidden" name="t_cushion" value="" data-v-0e697e26> <input type="hidden" name="lct" value="AsUxxWcA5z4A-X73J83vhgHywkS7QUuas2KCAlk9WL5QGe9pe1Q72pZaBgrW1bhQVWZ1BBC28sQYLUY6cUaoUqI207yYlg4mHw2B8mZMyPCSZ7uIwlqMIw3vCuLH_2svvBC7UuEf" data-v-0e697e26> <input type="hidden" name=".suppreg_skip" value="" data-v-0e697e26> <input type="hidden" name="card_cushion_skip" value="" data-v-0e697e26> <input type="hidden" name="keep_login" value="" data-v-0e697e26> <input type="hidden" name="nonotice" data-v-0e697e26> <input type="hidden" name="nolink" data-v-0e697e26> <input type="hidden" name="noar" data-v-0e697e26> <input type="hidden" name="noreg" data-v-0e697e26> <input type="hidden" name="os" value="" data-v-0e697e26> <input type="hidden" name="auth_lv" value="1" data-v-0e697e26> <input type="hidden" name=".reg" value="" data-v-0e697e26> <input type="hidden" name=".last" value="" data-v-0e697e26> <input type="hidden" name="tsr_exclusive" value="" data-v-0e697e26> <input type="hidden" name="req_attr" value="" data-v-0e697e26> <input type="hidden" name="sr_required" value="" data-v-0e697e26> <input type="hidden" name="require_auth" value="" data-v-0e697e26> <input type="hidden" name="skip_optional_page" value="" data-v-0e697e26> <input type="hidden" name="reject_smart_login" value="" data-v-0e697e26> <input type="hidden" name="design" value="" data-v-0e697e26> <input type="hidden" name="no_cancel_incomplete" value="" data-v-0e697e26> <input type="hidden" name="timezone_offset" value="-540" data-v-0e697e26> <input type="hidden" name="base64url_assertion_info" value="" data-v-0e697e26> <div class="stack" data-v-0e697e26><!----> <div class="handleBox" data-v-0e697e26></div> <div class="input ar-input_wrapper_1-8kT" data-v-14246d24 data-v-0e697e26><!----><div class="ar-input_inputWrapper_2P1ca" data-v-14246d24><!----><div class="ar-input_inputArea_322M6" data-v-14246d24><input aria-errormessage="password-error" aria-describedby="password-hint" type="password" id="password" name="password" placeholder="パスワード" value="" data-v-14246d24><!----><span class="ar-input_clear_1OW3p" style="display:none;" data-v-14246d24><a data-v-14246d24><span data-v-14246d24>clear</span></a></span></div><div id="password-error" class="ar-input_errMsg_2AhTC" style="display:none;" data-v-14246d24></div><!----></div></div> <div class="login ar-button_button_J2jv2 ar-button_medium_1i9SB ar-button_normal_1m_gx ar-button_fullwidth_19rcY" data-v-0e697e26><button type="submit">ログイン</button><div class="ar-button_loadingWrapper_2hRCf" style="display:none;"><div class="ar-button_loading_3OUSE">Loading</div></div></div> <div class="keepLoginBox" data-v-0e697e26><label class="keepLoginCheck ar-check_check_180Aq" data-v-0e697e26><input type="checkbox" name=".persistent" value="y" checked="checked" class="ar-check_input_BFRUJ"><span class="ar-check_checkBox_Omkjy"></span><span class="ar-check_label_1_EQQ">ログインしたままにする</span><div class="ar-check_focus_28VRL"></div></label></div></div></div> <!----> <!----> <div class="arLink" data-v-b86b7dfe data-v-0e697e26><a href="https://login.yahoo.co.jp/ar/top?src=yn&amp;done=https%3A%2F%2Fnews.yahoo.co.jp%2Fpurchase&amp;auth_lv=1" data-v-b86b7dfe>ログインできない場合</a></div> <!----></div></div></form> <div class="themeBox" data-v-e140ea46 data-v-237c557c><p class="themeLink" data-v-e140ea46><button class="themeBtn" data-v-e140ea46>テーマ</button></p> <div class="themeModal ar-modal_wrapper_2RwvF pc" style="display:none;" data-v-3f90b4cd data-v-3f90b4cd data-v-e140ea46><div class="ar-modal_overlay_1AFXC" data-v-3f90b4cd> </div><div class="ar-modal_frame_3SiuN" style="width:560px;margin-left:-280px;margin-top:0px;" data-v-3f90b4cd><!----><div class="ar-modal_contentArea_BcjNC" data-v-3f90b4cd><h1 class="ar-modal_title_YAnNw" style="display:none;" data-v-3f90b4cd></h1><div class="ar-modal_content_1nGS7" data-v-3f90b4cd><div class="themeContent" data-v-e140ea46><h2 class="themeTitle" data-v-e140ea46>テーマ設定</h2> <div class="stack" data-v-e140ea46><!----> <section data-v-e140ea46><div class="themeContentTitleWrap" data-v-e140ea46><h3 class="themeContentTitle" data-v-e140ea46>1. 色を選ぶ</h3> <p class="themeContentTitleLink" data-v-e140ea46><a href="https://id.yahoo.co.jp/security/login_theme.html" target="_blank" data-v-e140ea46>テーマとは</a></p></div> <div class="themeListBoxWrapper" data-v-04ffa490 data-v-e140ea46><ul class="themeListBox" data-v-04ffa490><li data-v-04ffa490><ul class="themeListWrap" data-v-04ffa490><li class="themeList active" data-v-04ffa490><button id="c01" class="themeButton c01 color" data-v-04ffa490>
+            c01
+          </button></li><li class="themeList" data-v-04ffa490><button id="c02" class="themeButton c02 color" data-v-04ffa490>
+            c02
+          </button></li><li class="themeList" data-v-04ffa490><button id="c03" class="themeButton c03 color" data-v-04ffa490>
+            c03
+          </button></li><li class="themeList" data-v-04ffa490><button id="c04" class="themeButton c04 color" data-v-04ffa490>
+            c04
+          </button></li><li class="themeList" data-v-04ffa490><button id="c05" class="themeButton c05 color" data-v-04ffa490>
+            c05
+          </button></li><li class="themeList" data-v-04ffa490><button id="c06" class="themeButton c06 color" data-v-04ffa490>
+            c06
+          </button></li><li class="themeList" data-v-04ffa490><button id="c07" class="themeButton c07 color" data-v-04ffa490>
+            c07
+          </button></li><li class="themeList" data-v-04ffa490><button id="c08" class="themeButton c08 color" data-v-04ffa490>
+            c08
+          </button></li><li class="themeList" data-v-04ffa490><button id="c09" class="themeButton c09 color" data-v-04ffa490>
+            c09
+          </button></li><li class="themeList" data-v-04ffa490><button id="c10" class="themeButton c10 color" data-v-04ffa490>
+            c10
+          </button></li><li class="themeList" data-v-04ffa490><button id="c11" class="themeButton c11 color" data-v-04ffa490>
+            c11
+          </button></li><li class="themeList" data-v-04ffa490><button id="c12" class="themeButton c12 color" data-v-04ffa490>
+            c12
+          </button></li><li class="themeList" data-v-04ffa490><button id="c13" class="themeButton c13 color" data-v-04ffa490>
+            c13
+          </button></li><li class="themeList" data-v-04ffa490><button id="c14" class="themeButton c14 color" data-v-04ffa490>
+            c14
+          </button></li><li class="themeList" data-v-04ffa490><button id="c15" class="themeButton c15 color" data-v-04ffa490>
+            c15
+          </button></li><li class="themeList" data-v-04ffa490><button id="c16" class="themeButton c16 color" data-v-04ffa490>
+            c16
+          </button></li><li class="themeList" data-v-04ffa490><button id="c17" class="themeButton c17 color" data-v-04ffa490>
+            c17
+          </button></li><li class="themeList" data-v-04ffa490><button id="c18" class="themeButton c18 color" data-v-04ffa490>
+            c18
+          </button></li><li class="themeList" data-v-04ffa490><button id="c19" class="themeButton c19 color" data-v-04ffa490>
+            c19
+          </button></li><li class="themeList" data-v-04ffa490><button id="c20" class="themeButton c20 color" data-v-04ffa490>
+            c20
+          </button></li><li class="themeList" data-v-04ffa490><button id="c21" class="themeButton c21 color" data-v-04ffa490>
+            c21
+          </button></li><li class="themeList" data-v-04ffa490><button id="c22" class="themeButton c22 color" data-v-04ffa490>
+            c22
+          </button></li><li class="themeList" data-v-04ffa490><button id="c23" class="themeButton c23 color" data-v-04ffa490>
+            c23
+          </button></li><li class="themeList" data-v-04ffa490><button id="c24" class="themeButton c24 color" data-v-04ffa490>
+            c24
+          </button></li></ul></li></ul> <!----></div></section> <section data-v-e140ea46><h3 class="themeContentTitle" data-v-e140ea46>2. テクスチャーを選ぶ</h3> <div class="themeListBoxWrapper" data-v-04ffa490 data-v-e140ea46><ul class="themeListBox" data-v-04ffa490><li data-v-04ffa490><ul class="themeListWrap" data-v-04ffa490><li class="themeList active" data-v-04ffa490><button id="t01" class="themeButton t01 texture" data-v-04ffa490>
+            t01
+          </button></li><li class="themeList" data-v-04ffa490><button id="t03" class="themeButton t03 texture" data-v-04ffa490>
+            t03
+          </button></li><li class="themeList" data-v-04ffa490><button id="t09" class="themeButton t09 texture" data-v-04ffa490>
+            t09
+          </button></li><li class="themeList" data-v-04ffa490><button id="t10" class="themeButton t10 texture" data-v-04ffa490>
+            t10
+          </button></li><li class="themeList" data-v-04ffa490><button id="t06" class="themeButton t06 texture" data-v-04ffa490>
+            t06
+          </button></li><li class="themeList" data-v-04ffa490><button id="t07" class="themeButton t07 texture" data-v-04ffa490>
+            t07
+          </button></li><li class="themeList" data-v-04ffa490><button id="t02" class="themeButton t02 texture" data-v-04ffa490>
+            t02
+          </button></li><li class="themeList" data-v-04ffa490><button id="t26" class="themeButton t26 texture" data-v-04ffa490>
+            t26
+          </button></li><li class="themeList" data-v-04ffa490><button id="t51" class="themeButton t51 texture" data-v-04ffa490>
+            t51
+          </button></li><li class="themeList" data-v-04ffa490><button id="t40" class="themeButton t40 texture" data-v-04ffa490>
+            t40
+          </button></li><li class="themeList" data-v-04ffa490><button id="t39" class="themeButton t39 texture" data-v-04ffa490>
+            t39
+          </button></li><li class="themeList" data-v-04ffa490><button id="t41" class="themeButton t41 texture" data-v-04ffa490>
+            t41
+          </button></li><li class="themeList" data-v-04ffa490><button id="t42" class="themeButton t42 texture" data-v-04ffa490>
+            t42
+          </button></li><li class="themeList" data-v-04ffa490><button id="t52" class="themeButton t52 texture" data-v-04ffa490>
+            t52
+          </button></li><li class="themeList" data-v-04ffa490><button id="t53" class="themeButton t53 texture" data-v-04ffa490>
+            t53
+          </button></li><li class="themeList" data-v-04ffa490><button id="t54" class="themeButton t54 texture" data-v-04ffa490>
+            t54
+          </button></li><li class="themeList" data-v-04ffa490><button id="t55" class="themeButton t55 texture" data-v-04ffa490>
+            t55
+          </button></li><li class="themeList" data-v-04ffa490><button id="t27" class="themeButton t27 texture" data-v-04ffa490>
+            t27
+          </button></li><li class="themeList" data-v-04ffa490><button id="t21" class="themeButton t21 texture" data-v-04ffa490>
+            t21
+          </button></li><li class="themeList" data-v-04ffa490><button id="t08" class="themeButton t08 texture" data-v-04ffa490>
+            t08
+          </button></li><li class="themeList" data-v-04ffa490><button id="t04" class="themeButton t04 texture" data-v-04ffa490>
+            t04
+          </button></li><li class="themeList" data-v-04ffa490><button id="t15" class="themeButton t15 texture" data-v-04ffa490>
+            t15
+          </button></li><li class="themeList" data-v-04ffa490><button id="t16" class="themeButton t16 texture" data-v-04ffa490>
+            t16
+          </button></li><li class="themeList" data-v-04ffa490><button id="t18" class="themeButton t18 texture" data-v-04ffa490>
+            t18
+          </button></li><li class="themeList" data-v-04ffa490><button id="t47" class="themeButton t47 texture" data-v-04ffa490>
+            t47
+          </button></li><li class="themeList" data-v-04ffa490><button id="t48" class="themeButton t48 texture" data-v-04ffa490>
+            t48
+          </button></li><li class="themeList" data-v-04ffa490><button id="t49" class="themeButton t49 texture" data-v-04ffa490>
+            t49
+          </button></li><li class="themeList" data-v-04ffa490><button id="t50" class="themeButton t50 texture" data-v-04ffa490>
+            t50
+          </button></li><li class="themeList" data-v-04ffa490><button id="t20" class="themeButton t20 texture" data-v-04ffa490>
+            t20
+          </button></li><li class="themeList" data-v-04ffa490><button id="t23" class="themeButton t23 texture" data-v-04ffa490>
+            t23
+          </button></li><li class="themeList" data-v-04ffa490><button id="t24" class="themeButton t24 texture" data-v-04ffa490>
+            t24
+          </button></li><li class="themeList" data-v-04ffa490><button id="t30" class="themeButton t30 texture" data-v-04ffa490>
+            t30
+          </button></li><li class="themeList" data-v-04ffa490><button id="t28" class="themeButton t28 texture" data-v-04ffa490>
+            t28
+          </button></li><li class="themeList" data-v-04ffa490><button id="t36" class="themeButton t36 texture" data-v-04ffa490>
+            t36
+          </button></li><li class="themeList" data-v-04ffa490><button id="t37" class="themeButton t37 texture" data-v-04ffa490>
+            t37
+          </button></li><li class="themeList" data-v-04ffa490><button id="t25" class="themeButton t25 texture" data-v-04ffa490>
+            t25
+          </button></li></ul></li></ul> <!----></div></section> <div class="buttonWrapper" data-v-e140ea46><div class="ar-button_button_J2jv2 ar-button_small_1-WyF ar-button_normal_1m_gx" data-v-e140ea46><button type="button">保存</button><div class="ar-button_loadingWrapper_2hRCf" style="display:none;"><div class="ar-button_loading_3OUSE">Loading</div></div></div> <div class="ar-button_button_J2jv2 ar-button_small_1-WyF ar-button_cancel_cU5h-" data-v-e140ea46><button type="button">キャンセル</button><!----></div></div></div></div></div></div><div class="ar-modal_btnArea_2yYMO" data-v-3f90b4cd><!----><!----></div></div></div></div></div> <!----></div> <div class="bgLayer" data-v-237c557c></div></div></div></div></div></div></div> <footer><div class="ar-footer-pc_footer_1hGlP"><address><a href="https://www.lycorp.co.jp/ja/company/privacypolicy/" target="new">プライバシーポリシー</a>  -  <a href="https://privacy.lycorp.co.jp/ja/" target="new">プライバシーセンター</a>  -  <a href="https://www.lycorp.co.jp/ja/company/terms/" target="new">利用規約</a>  -  <a href="https://support.yahoo-net.jp/PccLogin/s/" target="_blank" rel="noopener noreferrer">ヘルプ・お問い合わせ</a><span>© LY Corporation</span></address></div></footer></div></div></div><script>window.__NUXT__=(function(a,b,c,d,e,f,g,h,i){return {layout:"pc-login-layout",data:[{isLogout:b,isIE:b,doneURL:d,isDesktop:c,isInapp:b,lct:e,verify:b,src:f,display:a,trans:g,alias:a,signupUrl:"https:\u002F\u002Faccount.edit.yahoo.co.jp\u002Fsignup?done=https%3A%2F%2Fnews.yahoo.co.jp%2Fpurchase&src=yn&auth_lv=1",changeIdUrl:"https:\u002F\u002Flogin.yahoo.co.jp\u002Fconfig\u002Flogin?.src=yn&.done=https%3A%2F%2Fnews.yahoo.co.jp%2Fpurchase&auth_lv=1&.keep=1",accountRecoveryUrl:"https:\u002F\u002Flogin.yahoo.co.jp\u002Far\u002Ftop?src=yn&done=https%3A%2F%2Fnews.yahoo.co.jp%2Fpurchase&auth_lv=1",themeColor:"c01",themeTexture:"t01",yby:a,suppregSkip:a,tCushion:a,noCancelIncomplete:a,cardCushionSkip:a,keep:a,cpt:a,ckey:a,persistent:b,keepLogin:a,to:a,nonotice:b,nolink:b,noar:b,noreg:b,sbAuthDummyCookieToolURL:a,authLv:h,rejectSmartLogin:a,reg:a,last:a,tsrExclusive:a,reqAttr:a,srRequired:a,skipOptionalPage:a,design:a,requireAuth:a,requirePvcrumb:b}],fetch:{},error:null,state:{Authentication:{authList:[],requiredAuthList:[],authMethod:a,displayAuthentication:b,errorCode:a,handle:a,isLoading:b,alias:a,resendCount:0,canSendCode:b,alreadySentCode:b,isManualSendSms:b,pwLock:b,requestPersistent:c,baclMatched:b},RequestBody:{tries:a,cpt:a,lct:e,trans:g,token:a,dest:a,inactivePw:a,done:d,src:f,keep:a,ckey:a,display:a,yby:a,suppregSkip:a,tCushion:a,noCancelIncomplete:a,cardCushionSkip:a,keepLogin:a,isInapp:b,nonotice:b,nolink:b,noar:b,noreg:b,authLv:h,rejectSmartLogin:a,reg:a,last:a,tsrExclusive:a,reqAttr:a,srRequired:a,skipOptionalPage:a,design:a,requireAuth:a},SwitchAuthMethod:{isSwitchedAuthMethod:b},WebAuthn:{valueFido:a,fidoSupport:b,crossDeviceAuthenticationSupport:b,base64UrlAssertionInfo:a,assertionOptions:{},assertionOptionsReqId:a,canSwkVerification:b,swkErrorCode:a,isRetrySwk:b,isManualSwk:b,authenticateType:a,startType:"auto",customLogger:{}}},serverRendered:c,routePath:"\u002Fconfig\u002Flogin",config:{_app:{basePath:i,assetsPath:i,cdnURL:"https:\u002F\u002Fs.yimg.jp\u002Fimages\u002Faccount\u002Fnuxt\u002Flogin\u002F20250225-0972865\u002F"}}}}("",false,true,"https:\u002F\u002Fnews.yahoo.co.jp\u002Fpurchase","AsUxxWcA5z4A-X73J83vhgHywkS7QUuas2KCAlk9WL5QGe9pe1Q72pZaBgrW1bhQVWZ1BBC28sQYLUY6cUaoUqI207yYlg4mHw2B8mZMyPCSZ7uIwlqMIw3vCuLH_2svvBC7UuEf","yn","302c1c07-c064-4661-95fc-e50ff481a882","1","\u002F"));</script><script src="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/runtime.js" defer></script><script src="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/commons/app.js" defer></script><script src="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/common.js" defer></script><script src="https://s.yimg.jp/images/account/nuxt/login/20250225-0972865/app.js" defer></script><script data-n-head="ssr" src="https://yads.c.yimg.jp/js/yads-async.js" data-body="true"></script><script data-n-head="ssr" src="https://s.yimg.jp/images/mempf/service/2_3_0/mempf.js" data-body="true"></script>
+  </body>
+</html>

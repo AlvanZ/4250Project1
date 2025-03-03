@@ -4,7 +4,7 @@ from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from collections import deque
 import re
-from langdetect import detect
+from lingua import Language, LanguageDetectorBuilder
 import tldextract
 import csv
 # 1. Make method to get the seed url
@@ -14,29 +14,45 @@ import csv
 # Needs set to prevent duplicates, and then language detection.
 
 
-#Count the  number of 
+#Count the  number of files in the directory
 def count_txt_files(directory):
     if(os.path.exists(directory)):
         return sum(1 for file in os.listdir(directory) if file.endswith(".txt"))
     return 0
 
+detector = LanguageDetectorBuilder.from_all_languages().build()
 def detect_language(text):
-    try:
-        return detect(text)
-    except:
+    soup = BeautifulSoup(text, 'html.parser')
+    stripped_text = soup.get_text(separator=' ', strip = True)
+    detected_language = detector.detect_language_of(stripped_text)
+    if detected_language is None:
         return "unknown"
     
-def write_to_csv(url, outlink_count, filename="report.csv"):
-    """Appends URL and number of outlinks to a CSV file."""
+    return str(detected_language.iso_code_639_1.name)
+
+    
+def write_to_csv(url, outlink_count, domain, filename='report.csv'):
+    """Appends URL and number of outlinks to a CSV file in the domain's directory."""
     try:
-        file_exists = os.path.isfile(filename)  # Check if file exists
-        with open(filename, mode='a', newline='', encoding='utf-8') as file:
+        # Ensure the domain folder exists
+        domain_folder = os.path.join(domain)
+        if not os.path.exists(domain_folder):
+            os.makedirs(domain_folder)  # Create the folder if it doesn't exist
+        
+        # Define the file path with the desired filename in the domain folder
+        file_path = os.path.join(domain_folder, filename)
+        
+        # Check if the file exists to append or create
+        file_exists = os.path.isfile(file_path)
+        
+        with open(file_path, mode='a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             if not file_exists:
-                writer.writerow(["URL" , "Outlinks"])  # Write header if file is new
+                writer.writerow(["URL", "Outlinks"])  # Write header if file is new
             writer.writerow([url, outlink_count])  # Append data row
     except Exception as e:
         print(f"Error writing to CSV: {e}")
+ 
 # Function to normalize and filter URLs
 def normalize_url(base_url, link, allowed_domains, excluded_domains):
     absolute_url = urljoin(base_url, link)
@@ -50,6 +66,7 @@ def normalize_url(base_url, link, allowed_domains, excluded_domains):
     if excluded_domains and any(root_domain.endswith(domain) for domain in excluded_domains):
         return None
     return absolute_url
+
 #Function to get lang from html
 def detect_language_from_html(soup):
     """Extracts the language from the <html lang="xx"> attribute."""
@@ -93,11 +110,10 @@ def crawl(seed_urls, allowed_domains=None, excluded_domains=None, file_limit = 5
     visited = set()
     to_visit = deque()
      #Clear CSV Before writing into it
-    if os.path.exists('report.csv'):
-        open('report.csv', 'w').close()
     for seed_url in seed_urls:
         extracted = tldextract.extract(urlparse(seed_url).netloc)
         domain = f"{extracted.domain}.{extracted.suffix}"
+        
         if allowed_domains and domain not in allowed_domains:
             print(f"Skipping seed URL, not allowed: {seed_url}")
             continue
@@ -118,16 +134,8 @@ def crawl(seed_urls, allowed_domains=None, excluded_domains=None, file_limit = 5
             response = requests.get(current_url)
             if response.status_code == 200:
                 extracted = tldextract.extract(current_url)
-                subdomain = extracted.subdomain
                 domain = f"{extracted.domain}.{extracted.suffix}"   
-                #Use subdomain as language getter
-                # if subdomain:
-                #     language = subdomain
-                # else:
-                #     language = detect_language(response.text)
-                #Use html lang to get language
-                soup = BeautifulSoup(response.text, "html.parser")
-                language = detect_language_from_html(soup)
+                language = detect_language(response.text)
                 file_count = count_txt_files(f"{domain}/{language}")
                 print("File count: ", file_count)
                 if(file_count>=file_limit):
@@ -137,10 +145,9 @@ def crawl(seed_urls, allowed_domains=None, excluded_domains=None, file_limit = 5
                 save_page(current_url, response.text, base_dir)
                 links = extract_links(current_url)
                 outlink_count = len(links)
-                write_to_csv(current_url, outlink_count)
+                write_to_csv(current_url, outlink_count, domain)
                 for link in links:
                     normalized_url = normalize_url(current_url, link, allowed_domains, excluded_domains)
-
                     # **Ensure every extracted link is added at least once**
                     if normalized_url and normalized_url not in visited and normalized_url not in to_visit:
                         to_visit.append(normalized_url)
@@ -149,16 +156,16 @@ def crawl(seed_urls, allowed_domains=None, excluded_domains=None, file_limit = 5
             print(f"Failed to fetch {current_url}: {e}")
 
 # Example usage
-seed_urls = [
-    "https://www.cpp.edu/",  # Should be saved under `wikipedia.org/`
-    "https://taobao.com/",         # Should be saved under `taobao.com/`
-    "https://bbc.com/",            # Should be saved under `bbc.com/`
+seed_urls = [ 
+    "https://www.yahoo.co.jp/", # Should be saved under `yahoo.co.jp`
+    "https://www.cpp.edu/",  # Should be saved under `cpp.edu`
+    "https://taobao.com/",         # Should be saved under `taobao.com/`        
 ]
 
 #doesnt check allowed domain for the frst parse
 
 #use parsed_url.netloc to save to proper directory
-allowed_domains = ["cpp.edu", "bbc.com"]  # Only crawl these
-excluded_domains = ["taobao.com"]  # Ignore Taobao
+allowed_domains = ["taobao.com", "cpp.edu",  "yahoo.co.jp"]  # Only crawl these
+excluded_domains = []  # Ignore Taobao
 
 crawl(seed_urls, allowed_domains=allowed_domains, excluded_domains=excluded_domains)
