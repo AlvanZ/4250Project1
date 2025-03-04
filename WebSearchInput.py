@@ -1,12 +1,13 @@
 import os
 import requests
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urlparse, urljoin, quote
 from bs4 import BeautifulSoup
 from collections import deque
 import re
 from lingua import Language, LanguageDetectorBuilder
 import tldextract
 import csv
+
 # 1. Make method to get the seed url
 # 2. GO to page, error handle if it doesn't exist. Then you save that page
 # 3. Check if page is in set, if not then add it and then go through all anchor tags that contain the seed url
@@ -57,10 +58,13 @@ def write_to_csv(url, outlink_count, domain, filename='report.csv'):
 def normalize_url(base_url, link, allowed_domains, excluded_domains):
     absolute_url = urljoin(base_url, link)
     parsed_url = urlparse(absolute_url)
+
+    # Encode non-ASCII characters in the URL
+    absolute_url = quote(absolute_url, safe=":/?#[]@!$&'()*+,;=")
+
     extracted = tldextract.extract(parsed_url.netloc)
     root_domain = f"{extracted.domain}.{extracted.suffix}"
 
-    # Allow all subdomains of Wikipedia
     if allowed_domains and not any(root_domain.endswith(domain) for domain in allowed_domains):
         return None
     if excluded_domains and any(root_domain.endswith(domain) for domain in excluded_domains):
@@ -78,13 +82,16 @@ def detect_language_from_html(soup):
 # Function to extract links from a page
 def extract_links(url):
     try:
-        response = requests.get(url)
-        response.raise_for_status()  # Ensure we get a valid response
+        response = requests.get(url, timeout=5)
+        response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
         links = set()
         for a_tag in soup.find_all('a', href=True):
-            links.add(a_tag['href'])
+            href = a_tag['href'].strip()
+            if href.startswith("javascript") or href.startswith("#"):  # Ignore JavaScript and fragments
+                continue
+            links.add(href)
         
         return links
     except Exception as e:
@@ -106,66 +113,87 @@ def save_page(url, content, base_dir):
     print(f"Saved: {file_path}")
 
 # Web Crawler
-def crawl(seed_urls, allowed_domains=None, excluded_domains=None, file_limit = 50):
-    visited = set()
-    to_visit = deque()
-     #Clear CSV Before writing into it
+def crawl(seed_urls, allowed_domains=None, excluded_domains=None, file_limit=50):
+    visited = set()  # Keep track of visited URLs
+    to_visit = deque()  # Queue to store URLs to visit
+    
+    # Initialize seed URLs
     for seed_url in seed_urls:
         extracted = tldextract.extract(urlparse(seed_url).netloc)
         domain = f"{extracted.domain}.{extracted.suffix}"
         
+        # Check allowed and excluded domains
         if allowed_domains and domain not in allowed_domains:
             print(f"Skipping seed URL, not allowed: {seed_url}")
             continue
         if excluded_domains and domain in excluded_domains:
             print(f"Skipping seed URL (excluded): {seed_url}")
             continue
-        to_visit.append(seed_url)
+        
+        to_visit.append(seed_url)  # Add seed URL to queue for crawling
 
     while to_visit:
         current_url = to_visit.popleft()
+        
+        # Skip if the URL has already been visited
         if current_url in visited:
             continue
+        
+        # Mark the URL as visited
         visited.add(current_url)
 
-        print(f"Crawling: {current_url}")
+        print(f"Crawling: {current_url}".encode("utf-8", "ignore").decode("utf-8"))
         
         try:
+            # Fetch the page content
             response = requests.get(current_url)
             if response.status_code == 200:
                 extracted = tldextract.extract(current_url)
-                domain = f"{extracted.domain}.{extracted.suffix}"   
+                domain = f"{extracted.domain}.{extracted.suffix}"
                 language = detect_language(response.text)
+
+                # Check file count before saving the page
                 file_count = count_txt_files(f"{domain}/{language}")
                 print("File count: ", file_count)
-                if(file_count>=file_limit):
+                
+                if file_count >= file_limit:
                     print(f"Hit file limit for {domain}/{language}")
                     continue
+                
+                # Save the page content to file
                 base_dir = os.path.join(domain, language)
                 save_page(current_url, response.text, base_dir)
+                
+                # Extract links from the page
                 links = extract_links(current_url)
                 outlink_count = len(links)
                 write_to_csv(current_url, outlink_count, domain)
+                
+                # Process and normalize the links
                 for link in links:
                     normalized_url = normalize_url(current_url, link, allowed_domains, excluded_domains)
-                    # **Ensure every extracted link is added at least once**
+                    
+                    # Ensure only new URLs are added to the queue
                     if normalized_url and normalized_url not in visited and normalized_url not in to_visit:
-                        to_visit.append(normalized_url)
+                        # Normalizing link and ensuring we keep relative URLs
+                        absolute_url = urljoin(current_url, normalized_url)  # Convert relative to absolute
+                        if absolute_url not in visited:
+                            to_visit.append(absolute_url)
 
         except requests.RequestException as e:
             print(f"Failed to fetch {current_url}: {e}")
 
 # Example usage
 seed_urls = [ 
+    "https://www.taobao.com/",         # Should be saved under `taobao.com/` 
     "https://www.yahoo.co.jp/", # Should be saved under `yahoo.co.jp`
-    "https://www.cpp.edu/",  # Should be saved under `cpp.edu`
-    "https://taobao.com/",         # Should be saved under `taobao.com/`        
+    "https://www.cpp.edu/",  # Should be saved under `cpp.edu`       
 ]
 
 #doesnt check allowed domain for the frst parse
 
 #use parsed_url.netloc to save to proper directory
-allowed_domains = ["taobao.com", "cpp.edu",  "yahoo.co.jp"]  # Only crawl these
+allowed_domains = ["taobao.com", 'yahoo.co.jp', 'cpp.edu']  # Only crawl these
 excluded_domains = []  # Ignore Taobao
 
 crawl(seed_urls, allowed_domains=allowed_domains, excluded_domains=excluded_domains)

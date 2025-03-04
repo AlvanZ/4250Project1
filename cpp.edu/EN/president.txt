@@ -427,7 +427,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     
     
-          
+        
  
 
 
@@ -977,116 +977,94 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+                
+    <div class="organism-spacer spacer__padding-top--medium spacer__padding-bottom--medium spacer__background-color--eggshell spacer__mobile-padding-top--override spacer__mobile-padding-bottom--override">
 
-                            
-        <div class="organism-spacer spacer__padding-top--medium spacer__padding-bottom--medium spacer__background-color--eggshell spacer__mobile-padding-top--override spacer__mobile-padding-bottom--override">
-    
-                                  
-                            <section class="cta-green-card ">
-                <div class="container">  
-                                                          <div class="row">
-                        <header class="green-card-grid__header">
-                            <div class="green-card-grid__copy">
-                                <h2 class="h4__transducer">Shaping Tomorrow, Today</h2>
-                            </div>
-                                                  </header>
-                    </div>
-                   
-                                   
-                        <div class="cta-green-card__cards row">
-                                                                                
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="strategic-initiatives.shtml">
-                                                                                          
-                                                                  
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Strategic Initiatives</h3>
-                                                                                                                    </div>
+                          
+                    <section class="cta-green-card ">
+            <div class="container">  
+                                              <div class="row">
+                    <header class="green-card-grid__header">
+                        <div class="green-card-grid__copy">
+                            <h2 class="h4__transducer">Shaping Tomorrow, Today</h2>
+                        </div>
+                                          </header>
+                </div>
+               
+                           
+                    <div class="cta-green-card__cards row">
+                                                                    
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="strategic-initiatives.shtml">
+                                                                                        
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Strategic Initiatives</h3>
+                                                                                            </div>
                                                             </a>
                                                         </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="regional-and-national-impact.shtml">
-                                                                                          
-                                                                  
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Regional and National Impact</h3>
-                                                                                                                    </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="regional-and-national-impact.shtml">
+                                                                                        
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Regional and National Impact</h3>
+                                                                                            </div>
                                                             </a>
                                                         </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="https://www.cpp.edu/president/office-directory/index.shtml">
-                                                                                          
-                                                                  
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Office Directory</h3>
-                                                                                                                    </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="https://www.cpp.edu/president/office-directory/index.shtml">
+                                                                                        
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Office Directory</h3>
+                                                                                            </div>
                                                             </a>
                                                         </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="presidents-scholars-index.shtml">
-                                                                                          
-                                                                  
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">President&apos;s Scholars</h3>
-                                                                                                                    </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="presidents-scholars-index.shtml">
+                                                                                        
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">President&apos;s Scholars</h3>
+                                                                                            </div>
                                                             </a>
                                                         </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="academic-honors.shtml">
-                                                                                          
-                                                                  
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Academic Honors</h3>
-                                                                                                                    </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="academic-honors.shtml">
+                                                                                        
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Academic Honors</h3>
+                                                                                            </div>
                                                             </a>
                                                         </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="https://www.cpp.edu/president/honoring-excellence/emeritus-awards.shtml">
-                                                                                          
-                                                                  
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Emeritus Honors</h3>
-                                                                                                                    </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="https://www.cpp.edu/president/honoring-excellence/emeritus-awards.shtml">
+                                                                                        
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Emeritus Honors</h3>
+                                                                                            </div>
                                                             </a>
                                                         </div>
-                            
-                            
-                                               
+                        
+                                            </div>    
+                </div> 
+            </section>
+            </div>
+      
 
-                    </div>    </div> 
-                </section>
-                                    
-                         
-                      </div>
-          
-    
 
    
                     

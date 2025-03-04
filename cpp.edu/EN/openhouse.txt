@@ -421,17 +421,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
 
 
-
   
 
 
   
 
   
-                  
+                
             
 
-                   
+        
+           
                            <code></code>
            
                             
@@ -442,32 +442,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <nav class="container">
     <ul class="row sub-nav__links">
 
-           <li class="sub-nav__link ">
-            <a class="button__proxima sub-nav__link--default" href="                                                  /openhouse/index.shtml      " tabindex="0">BroncoBound Home</a>
+           <li class="sub-nav__link">
+            <a class="button__proxima sub-nav__link--default" href="/openhouse/index.shtml" tabindex="0">BroncoBound Home</a>
         </li>
         
 
 
-                   <li class="sub-nav__link ">
+                   <li class="sub-nav__link">
                     <button aria-expanded="false" class="button__proxima sub-nav__link--default" data-bs-toggle="dropdown">Visitor Info <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" height="9" viewBox="0 0 14 9" width="14">
                         <path d="M1 1L7 7L13 1" stroke="#005030" stroke-width="2"/>
                       </svg>
                     </button>
                     <ul class="dropdown-menu sub-dropdown">
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /openhouse/directions.shtml      " tabindex="0">Getting to Campus</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/openhouse/directions.shtml" tabindex="0">Getting to Campus</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /openhouse/lodging.shtml      " tabindex="0">Where to Stay</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/openhouse/lodging.shtml" tabindex="0">Where to Stay</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /openhouse/dining.shtml      " tabindex="0">Dining</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/openhouse/dining.shtml" tabindex="0">Dining</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  https://www.cpp.edu/maps/      " tabindex="0">Campus Map</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="https://www.cpp.edu/maps/" tabindex="0">Campus Map</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /openhouse/accommodations.shtml      " tabindex="0">ADA/Accomodations</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/openhouse/accommodations.shtml" tabindex="0">ADA/Accomodations</a>
                       </li>
                           
                     </ul>
@@ -477,33 +477,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
 
 
-           <li class="sub-nav__link ">
-            <a class="button__proxima sub-nav__link--default" href="                                                  /openhouse/agenda.shtml      " tabindex="0">Agenda</a>
+           <li class="sub-nav__link">
+            <a class="button__proxima sub-nav__link--default" href="/openhouse/agenda.shtml" tabindex="0">Agenda</a>
         </li>
         
 
 
-           <li class="sub-nav__link ">
-            <a class="button__proxima sub-nav__link--default" href="                                                  /openhouse/faqs.shtml      " tabindex="0">FAQs</a>
+           <li class="sub-nav__link">
+            <a class="button__proxima sub-nav__link--default" href="/openhouse/faqs.shtml" tabindex="0">FAQs</a>
         </li>
         
 
 
-           <li class="sub-nav__link ">
-            <a class="button__proxima sub-nav__link--default" href="                                                  https://www.cpp.edu/campus-life/      " tabindex="0">Campus Life</a>
+           <li class="sub-nav__link">
+            <a class="button__proxima sub-nav__link--default" href="https://www.cpp.edu/campus-life/" tabindex="0">Campus Life</a>
         </li>
         
 
 
-           <li class="sub-nav__link ">
-            <a class="button__proxima sub-nav__link--default" href="                                                  https://www.cpp.edu/prospective-student-gateway/index.shtml      " tabindex="0">Learn More About CPP</a>
+           <li class="sub-nav__link">
+            <a class="button__proxima sub-nav__link--default" href="https://www.cpp.edu/prospective-student-gateway/index.shtml" tabindex="0">Learn More About CPP</a>
         </li>
         
 
 </ul>
 
 <div class="row sub-nav__division-menu">
-    <div class="sub-nav__division">BroncoBound Open House</div>
+    <div class="sub-nav__division"></div>
         <div class="col-4 menu-button">
         <button aria-expanded="false" aria-label="Site Menu" class="button button__primary--yellow-green button__proxima" data-dropdown-id="dropdownMenuBtn" id="dropdownMenuBtn">Menu
              <span class="icon chevron">
@@ -519,7 +519,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        
                        
              <li class="sub-nav__link">
-    <a class="button__proxima" href="                                                  /openhouse/index.shtml      " tabindex="0">BroncoBound Home</a>
+    <a class="button__proxima" href="/openhouse/index.shtml" tabindex="0">BroncoBound Home</a>
   </li>
       
 
@@ -534,23 +534,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </button> </div>
                   <div class="sub-nav__nested-dropdown show" id="nestedDropdownMenu--1">
                                             <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /openhouse/directions.shtml      " tabindex="0">Getting to Campus</a>
+                           <a class="button__proxima" href="/openhouse/directions.shtml" tabindex="0">Getting to Campus</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /openhouse/lodging.shtml      " tabindex="0">Where to Stay</a>
+                           <a class="button__proxima" href="/openhouse/lodging.shtml" tabindex="0">Where to Stay</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /openhouse/dining.shtml      " tabindex="0">Dining</a>
+                           <a class="button__proxima" href="/openhouse/dining.shtml" tabindex="0">Dining</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  https://www.cpp.edu/maps/      " tabindex="0">Campus Map</a>
+                           <a class="button__proxima" href="https://www.cpp.edu/maps/" tabindex="0">Campus Map</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /openhouse/accommodations.shtml      " tabindex="0">ADA/Accomodations</a>
+                           <a class="button__proxima" href="/openhouse/accommodations.shtml" tabindex="0">ADA/Accomodations</a>
                       
                       </div>
                                    
@@ -561,7 +561,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
              <li class="sub-nav__link">
-    <a class="button__proxima" href="                                                  /openhouse/agenda.shtml      " tabindex="0">Agenda</a>
+    <a class="button__proxima" href="/openhouse/agenda.shtml" tabindex="0">Agenda</a>
   </li>
       
 
@@ -569,7 +569,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
              <li class="sub-nav__link">
-    <a class="button__proxima" href="                                                  /openhouse/faqs.shtml      " tabindex="0">FAQs</a>
+    <a class="button__proxima" href="/openhouse/faqs.shtml" tabindex="0">FAQs</a>
   </li>
       
 
@@ -577,7 +577,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
              <li class="sub-nav__link">
-    <a class="button__proxima" href="                                                  https://www.cpp.edu/campus-life/      " tabindex="0">Campus Life</a>
+    <a class="button__proxima" href="https://www.cpp.edu/campus-life/" tabindex="0">Campus Life</a>
   </li>
       
 
@@ -585,7 +585,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
              <li class="sub-nav__link">
-    <a class="button__proxima" href="                                                  https://www.cpp.edu/prospective-student-gateway/index.shtml      " tabindex="0">Learn More About CPP</a>
+    <a class="button__proxima" href="https://www.cpp.edu/prospective-student-gateway/index.shtml" tabindex="0">Learn More About CPP</a>
   </li>
       
 
@@ -594,6 +594,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     </div>
 </div>
+
+
 
 
 </nav>
@@ -692,7 +694,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <p class="body2">9 a.m. to 2 p.m.</p>
           </header>
                                       <div class="image-cta-lockup__cta">
-                                                                  <a class="button button__secondary button1__transducer" href="                                                          https://engage.cpp.edu/apply/form?id=8f1b78ce-da50-4bb3-ba44-934fd16e7617      ">Register for BroncoBound</a>                      
+                                                                  <a class="button button__secondary button1__transducer" href="                https://engage.cpp.edu/apply/form?id=8f1b78ce-da50-4bb3-ba44-934fd16e7617 ">Register for BroncoBound</a>                      
                                 </div>
                         </div>
         <div class="col-lg-6">
@@ -705,7 +707,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </section>
 </div>
                             
-                
+                    
+        
+
 
      
         
@@ -730,157 +734,151 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </section>
                 </div>
                                           
-                
+                    
+        
+
 
      
         
                                 
                      
+                
+    <div class="organism-spacer spacer__padding-top--medium spacer__padding-bottom--medium spacer__background-color--eggshell spacer__mobile-padding-top--override spacer__mobile-padding-bottom--override">
 
-                            
-        <div class="organism-spacer spacer__padding-top--medium spacer__padding-bottom--medium spacer__background-color--eggshell spacer__mobile-padding-top--override spacer__mobile-padding-bottom--override">
-    
-                    <div class="container">
-                                     <div class="row">
-                <header class="green-card-grid__header">
-                    <div class="green-card-grid__copy">
-                       <h2 class="h4__transducer">Next Steps</h2>
-                    </div>
-                    
-                                    </header>
-             </div>
-             
-                        
-              
-                          
-                             
-                <div class="green-card-grid__wrapper row">
+            <div class="container">
+                         <div class="row">
+            <header class="green-card-grid__header">
+                <div class="green-card-grid__copy">
+                   <h2 class="h4__transducer">Next Steps</h2>
+                </div>
+                
+                            </header>
+         </div>
+         
+                
+          
+                  
+                     
+            <div class="green-card-grid__wrapper row">
+                                                           
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                                    <div class="card card__image card__link card--dark-green bar--green col-lg-4">
+                                                    <div class="card__img">
+                                <img alt="Female student holds foam finger and poses with Billy Bronco" src="img/24transfer-orientation-billy2.jpg"/>
+                            </div>
+                            <div class="card__content">
+                                                                    <h3 class="h5__proxima">Register for BroncoBound</h3>
                                                             
-                                                       
-                                                <div class="col-12 col-md-6 col-lg-4">
-                                                      <a class="card card__image card__link card--dark-green bar--green--with-arrow col-lg-4" href="                                                          https://engage.cpp.edu/apply/form?id=8f1b78ce-da50-4bb3-ba44-934fd16e7617      ">
-                                 
-                                                          <div class="card__img">
-                                    <img alt="Female student holds foam finger and poses with Billy Bronco" src="img/24transfer-orientation-billy2.jpg"/>
-                                </div>
-                                <div class="card__content">
-                                                                      <h3 class="h5__proxima">Register for BroncoBound</h3>
-                                                                  
-                                                                  </div>
-                            </a>
-                        </div>
-                                               
-                                                       
-                                                <div class="col-12 col-md-6 col-lg-4">
-                                                      <a class="card card__image card__link card--dark-green bar--green--with-arrow col-lg-4" href="                                                          https://applicant.cpp.edu/      ">
-                                 
-                                                          <div class="card__img">
-                                    <img alt="Female and Male student in a classroom on the first day of classes." src="img/24students-in-quad1.jpg"/>
-                                </div>
-                                <div class="card__content">
-                                                                      <h3 class="h5__proxima">Accept Your Offer to CPP</h3>
-                                                                  
-                                                                  </div>
-                            </a>
-                        </div>
-                                               
-                                                       
-                                                <div class="col-12 col-md-6 col-lg-4">
-                                                      <a class="card card__image card__link card--dark-green bar--green--with-arrow col-lg-4" href="faqs.shtml">
-                                 
-                                                          <div class="card__img">
-                                    <img alt="Families tour campus in a group" src="img/24broncobound_37.jpg"/>
-                                </div>
-                                <div class="card__content">
-                                                                      <h3 class="h5__proxima">More About BroncoBound</h3>
-                                                                  
-                                                                  </div>
-                            </a>
-                        </div>
-                                           </div>
-                
-                          
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                           
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                                    <div class="card card__image card__link card--dark-green bar--green col-lg-4">
+                                                    <div class="card__img">
+                                <img alt="Female and Male student in a classroom on the first day of classes." src="img/24students-in-quad1.jpg"/>
                             </div>
-                                      
-                                    
-                         
-                      </div>
-          
+                            <div class="card__content">
+                                                                    <h3 class="h5__proxima">Accept Your Offer to CPP</h3>
+                                                            
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                           
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                                    <div class="card card__image card__link card--dark-green bar--green col-lg-4">
+                                                    <div class="card__img">
+                                <img alt="Families tour campus in a group" src="img/24broncobound_37.jpg"/>
+                            </div>
+                            <div class="card__content">
+                                                                    <h3 class="h5__proxima">More About BroncoBound</h3>
+                                                            
+                                                            </div>
+                                                    </div>
+                                            </div>
+                            </div>
+            
+                  
+                    </div>
+                              
+            </div>
+      
                 
+        
+
 
      
         
                                 
                      
+                
+    <div class="organism-spacer spacer__padding-top--medium  spacer__padding-bottom--medium ">
 
-                            
-        <div class="organism-spacer spacer__padding-top--medium  spacer__padding-bottom--medium ">
-    
-                    <div class="container">
-                                     <div class="row">
-                <header class="green-card-grid__header">
-                    <div class="green-card-grid__copy">
-                       <h2 class="h4__transducer">Learn More About CPP</h2>
-                    </div>
-                    
-                                    </header>
-             </div>
-             
-                        
-              
-                             
-                <div class="green-card-grid__wrapper row">
-                                                                   
-                                                <div class="col-12 col-md-6 col-lg-4">
-                        
-                                                    <a class="card card__image card__link card--dark-green bar--green--with-arrow col-lg-4" href="                                                          https://www.cpp.edu/campus-life/      ">
-                                 
-                                                        <div class="card__img">
-                                    <img alt="Female and Male student hold a hot dog with Billy Bronco during Hot Dog Caper." src="img/23hot-dog-caper12.jpg"/>
-                                </div>
-                                <div class="card__content">
-                                                                             <h3 class="h5__proxima">Campus Life</h3>
-                                                                                                        </div>
-                            </a>
-                        </div>
-                                                  
-                                                <div class="col-12 col-md-6 col-lg-4">
-                        
-                                                    <a class="card card__image card__link card--dark-green bar--green--with-arrow col-lg-4" href="                                                          https://www.cpp.edu/campus-life/      ">
-                                 
-                                                        <div class="card__img">
-                                    <img alt="Father hugs his daughter during commencement." src="img/23raza-grad_57.jpg"/>
-                                </div>
-                                <div class="card__content">
-                                                                             <h3 class="h5__proxima">Parent and Family Engagement</h3>
-                                                                                                        </div>
-                            </a>
-                        </div>
-                                                  
-                                                <div class="col-12 col-md-6 col-lg-4">
-                        
-                                                    <a class="card card__image card__link card--dark-green bar--green--with-arrow col-lg-4" href="                                                          https://www.cpp.edu/financial-aid/index.shtml      ">
-                                 
-                                                        <div class="card__img">
-                                    <img alt="Students on the first day of fall in class." src="img/24first-day-dewald.jpg"/>
-                                </div>
-                                <div class="card__content">
-                                                                             <h3 class="h5__proxima">Financial Aid and Scholarships</h3>
-                                                                                                        </div>
-                            </a>
-                        </div>
-                                         </div>
+            <div class="container">
+                         <div class="row">
+            <header class="green-card-grid__header">
+                <div class="green-card-grid__copy">
+                   <h2 class="h4__transducer">Learn More About CPP</h2>
+                </div>
                 
-                          
-                          
-                            </div>
-                                      
-                                    
-                         
-                      </div>
+                            </header>
+         </div>
+         
+                
           
+                     
+            <div class="green-card-grid__wrapper row">
+                                                       
+                                        <div class="col-12 col-md-6 col-lg-4">
+                    
+                                            <div class="card card__image card__link card--dark-green bar--green col-lg-4">
+                                            <div class="card__img">
+                            <img alt="Female and Male student hold a hot dog with Billy Bronco during Hot Dog Caper." src="img/23hot-dog-caper12.jpg"/>
+                        </div>
+                        <div class="card__content">
+                                                             <h3 class="h5__proxima">Campus Life</h3>
+                                                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="col-12 col-md-6 col-lg-4">
+                    
+                                            <div class="card card__image card__link card--dark-green bar--green col-lg-4">
+                                            <div class="card__img">
+                            <img alt="Father hugs his daughter during commencement." src="img/23raza-grad_57.jpg"/>
+                        </div>
+                        <div class="card__content">
+                                                             <h3 class="h5__proxima">Parent and Family Engagement</h3>
+                                                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="col-12 col-md-6 col-lg-4">
+                    
+                                            <div class="card card__image card__link card--dark-green bar--green col-lg-4">
+                                            <div class="card__img">
+                            <img alt="Students on the first day of fall in class." src="img/24first-day-dewald.jpg"/>
+                        </div>
+                        <div class="card__content">
+                                                             <h3 class="h5__proxima">Financial Aid and Scholarships</h3>
+                                                                                </div>
+                                            </div>
+                                        </div>
+                              </div>
+            
+                  
+                  
+                    </div>
+                              
+            </div>
+      
                 
+             
+
 </div>
+
+
+
 
 
 

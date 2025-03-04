@@ -1,0 +1,2259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- MetaData -->
+<meta charset="utf-8"><meta name="application-name" content="Yahoo!ショッピング"><meta name="msapplication-tooltip" content="ネットで通販、オンラインショッピング"><meta name="msapplication-starturl" content="https://shopping.yahoo.co.jp/"><meta name="msapplication-navbutton-color" content="#FF8F2D"><meta name="msapplication-task" content="name=Myショッピング; action-uri=https://shopping.yahoo.co.jp/my/; icon-uri=https://s.yimg.jp/images/shp_front/img/components/common/ic/pin_shopping.ico"><meta name="msapplication-task" content="name=お気に入りリスト; action-uri=https://shopping.yahoo.co.jp/my/wishlist/item/; icon-uri=https://s.yimg.jp/images/shp_front/img/components/common/ic/pin_shopping.ico"><meta name="msapplication-task" content="name=カート/注文履歴; action-uri=https://odhistory.shopping.yahoo.co.jp/cgi-bin/cart-list; icon-uri=https://s.yimg.jp/images/shp_front/img/components/common/ic/pin_shopping.ico"><meta name="format-detection" content="telephone=no"><meta property="og:type" content="article"><meta property="og:url" content="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/"><meta property="og:site_name" content="Yahoo!ショッピング"><meta property="og:locale" content="ja_JP"><meta property="fb:app_id" content=""><meta property="og:image" content="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/bnr/003_1200_1200.png"><title>ホワイトデー＆春ギフト2025　 お返しも、お祝いも　心に残るギフト　- Yahoo!ショッピング</title><meta property="og:title" content="ホワイトデー＆春ギフト2025　 お返しも、お祝いも　心に残るギフト　- Yahoo!ショッピング"><meta name="keywords" lang="ja" content="ホワイトデー,ホワイトデー お返し,ホワイトデー 2025,人気,お菓子,チョコレート,ブランド,プレゼント,ホワイトデーのお返し,彼女,友達へのお返し,2025,クーポン,Yahoo!ショッピング,ランキング,義理,個包装,職場,おしゃれ,ばらまき,スイーツ,定番"><meta name="description" lang="ja" content="ホワイトデーのお返し、合格祝い、退職祝い、2025年春のギフトが全部そろうYahoo!ショッピング！　人気のストア・ブランドが対象のクーポンも配布。チョコレートやクッキー、アクセサリーなど、喜ばれるギフトがバラエティ豊富に揃っています。"><link rel="shortcut icon" href="https://s.yimg.jp/c/icon/s/bsc/2.0/favicon.ico" type="image/vnd.microsoft.icon" /><link rel="icon" href="https://s.yimg.jp/c/icon/s/bsc/2.0/favicon.ico" type="image/vnd.microsoft.icon" /><link rel="apple-touch-icon" href="https://s.yimg.jp/images/ipn/wcb/shopping129.png"><link rel="canonical" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/">
+<link rel="shortcut icon" href="https://s.yimg.jp/c/icon/s/bsc/2.0/favicon.ico " type="image/vnd.microsoft.icon" /><link rel="icon" href="https://s.yimg.jp/c/icon/s/bsc/2.0/favicon.ico " type="image/vnd.microsoft.icon" /><link rel="stylesheet" href="https://s.yimg.jp/images/shp_front/pc/_library/css/_library1.48.css"><link rel="stylesheet" href="https://s.yimg.jp/images/sh/cms/common/promotionTemplate/mc/pc/css/layouts1.0.css "><link rel="stylesheet" href="https://s.yimg.jp/images/shp_front/pc/promotion/css/promotion1.5.css"><link rel="stylesheet" href="https://s.yimg.jp/images/shp_shared_parts/v2/2.0.23/css/_frontDelivery/pc/style.css"><style>@charset "UTF-8";
+.mdMovieSearch .elHeader {
+  margin: 0 24px;
+}
+
+.mdMovieSearch .elHeaderText {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.mdMovieSearch .elMovieList {
+  position: relative;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding-right: calc(100% - 156px);
+}
+
+.mdMovieSearch .elMovieList::-webkit-scrollbar {
+  display: none;
+}
+
+.mdMovieSearch .elMovie {
+  position: relative;
+  scroll-snap-align: start;
+  scroll-margin-left: 24px;
+}
+
+.mdMovieSearch .elMovie + .elMovie {
+  margin-left: 12px;
+}
+
+.mdMovieSearch .elMovieList > .elMovie:first-child {
+  margin-left: 24px;
+}
+
+.mdMovieSearch .elItemUrl {
+  display: block;
+}
+
+.mdMovieSearch .elMoviePlayerWrapper {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0);
+}
+
+.mdMovieSearch .elDetail {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mdMovieSearch .elThumbnail {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mdMovieSearch .elThumbnail.hide {
+  display: none;
+}
+
+.mdMovieSearch .elTitles {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 12px 12px;
+  border-radius: 0 0 8px 8px;
+  background: linear-gradient(
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 0.4) 78.12%
+  );
+}
+
+.mdMovieSearch .elTitle,
+.mdMovieSearch .elSubTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.mdMovieSearch .elTitle {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.mdMovieSearch .elSubTitle {
+  margin-top: 2px;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.mdMovieSearch .elMore {
+  width: 100%;
+}
+
+.mdMovieSearch .elMoreLink {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #0260ea;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+.mdMovieSearch .elMoreLink:hover {
+  opacity: 0.7;
+}
+
+.mdMovieSearch .elErrorText {
+  line-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  color: #868686;
+}
+
+@media screen and (max-width: 949px) {
+  .mdMovieSearch {
+    margin-top: 24px;
+  }
+
+  .mdMovieSearch .elHeader + .elMovieList,
+  .mdMovieSearch .elHeader + .elError {
+    margin-top: 12px;
+  }
+
+  .mdMovieSearch .elMovie,
+  .mdMovieSearch .elMoviePlayerWrapper,
+  .mdMovieSearch .elMoviePlayer {
+    width: 128px;
+    height: 227px;
+  }
+
+  .mdMovieSearch .elMore {
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  .mdMovieSearch .elMoreLink {
+    padding: 12px 8px;
+    margin: 0 16px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .mdMovieSearch {
+    margin-top: 32px;
+  }
+
+  .mdMovieSearch .elHeader + .elMovieList,
+  .mdMovieSearch .elHeader + .elError {
+    margin-top: 16px;
+  }
+
+  .mdMovieSearch .elMovie,
+  .mdMovieSearch .elMoviePlayerWrapper,
+  .mdMovieSearch .elMoviePlayer {
+    width: 140px;
+    height: 248px;
+  }
+
+  .mdMovieSearch .elMore {
+    margin-top: 16px;
+  }
+
+  .mdMovieSearch .elMoreLink {
+    width: 410px;
+    padding: 11px 0;
+    margin: 0 auto;
+  }
+}
+</style><link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/maintenance/event_common/css/mdEventBanner1.2.css"><link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/maintenance/notice/css/mdNextScheduleNotice1.1.css"><link rel="stylesheet" href="https://s.yimg.jp/images/sh/cms/common/promotionTemplate/mc/common/css/modules/npsEnquete1.0.css"><link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/maintenance/event_common/seasonal/css/mdSeasonEvent1.1.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/css/whiteday1.0.css">
+<script src="https://s.yimg.jp/images/commerce/js/libs/jquery/core/1.11.1/jquery.min.js" type="text/javascript"></script>
+<!-- SiteCatalyst code -->
+<script type="text/javascript">
+if (typeof YAHOO == "undefined") {
+    var YAHOO = {};
+    YAHOO.JP = {};
+    YAHOO.JP.shp = {};
+} else if (typeof YAHOO.JP == "undefined") {
+    YAHOO.JP = {};
+    YAHOO.JP.shp = {};
+} else if (typeof YAHOO.JP.shp == "undefined") {
+    YAHOO.JP.shp = {};
+}
+YAHOO.JP.shp.data = {
+    status : {}
+};
+</script>
+<!-- End SiteCatalyst code -->
+<script>
+var TLDataContext = {
+  ual : {
+    pageview : {
+      opttype : 'pc',
+      content_id : '',
+      id_type : '',
+      nopv : 'false',
+      mtestid : '',
+      ss_join_id : '',
+      ss_join_id_type : '',
+      hierarchy_id : '1155022642'
+    }
+  }
+};
+</script>
+<script async src="https://s.yimg.jp/images/ds/managed/1/managed-ual.min.js?tk=e8a95dd8-c2f5-45a4-911a-3524b82a6610&service=shopping"></script>
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PWD7BRB8');
+</script>
+<!-- End Google Tag Manager -->
+<script src="https://s.yimg.jp/images/shp-delivery/utils/1.0/custom-elements.min.js"></script><script src="https://s.yimg.jp/images/shp-delivery/utils/1.1/ptahGlobalCommon.js"></script></head>
+<body>
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7BRB8" height="0" width="0" style="display:none; visibility:hidden;"></iframe>
+</noscript>
+
+<a id="pagetop"></a>
+<!-- wrapper -->
+<div id="wrapper">
+<!-- shpWrapper -->
+<div id="shpWrapper" class="frozenA">
+<div id="shpPage">
+<!-- pcHeaderParts -->
+<div id="shpHeader">
+    
+        
+            <shp-masthead done="https%3A%2F%2Fshopping.yahoo.co.jp%2Fpromotion%2Fevent%2Fseasonal%2Fwhiteday%2F" disablePremiumAd="true" applyWhiteUI="false"></shp-masthead>
+        
+        <shp-emg></shp-emg>
+        
+            <shp-message-header></shp-message-header>
+        
+    
+
+    
+
+    <!-- JS OFF ALERT -->
+<noscript>
+    <div class="mdJsOffAlert">
+        <div class="dvBox">
+            <p class="dcAlert">現在JavaScriptの設定が無効になっています。</p>
+            <p class="dcMintxt">すべての機能を利用するためには、設定を有効にしてください。詳しい設定方法は「<a
+                        href="https://support.yahoo-net.jp/noscript">JavaScriptの設定方法</a>」をご覧ください。</p>
+        </div>
+    </div>
+</noscript>
+<!-- /JS OFF ALERT -->
+
+    
+    
+
+    
+        <shp-search-header appId="dj0zaiZpPVkwMDJ1RHlqOEdwdCZzPWNvbnN1bWVyc2VjcmV0Jng9M2Y-"></shp-search-header>
+    
+    
+
+    
+        <!-- BreadCrumbEdit -->
+<nav class="mdBreadCrumb">
+    <ol class="elList" data-libScroll data-libScroll-parameter="from:0, to:last">
+        
+        
+            <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                
+                
+                    <a href="https://shopping.yahoo.co.jp/" itemprop="url">
+                
+                <span itemprop="title">トップ</span>
+                
+                    </a>
+                
+            </li>
+        
+            <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                
+                
+                <span itemprop="title">ホワイトデー＆春ギフト2025</span>
+                
+            </li>
+        
+    </ol>
+</nav>
+<!-- /BreadCrumbEdit -->
+    
+</div>
+
+<!-- /pcHeaderParts -->
+<!-- shpMain -->
+<div id="shpMain">
+<div class="gdColumns gd1ColumnB">
+<link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/promotion/template/pc/part/mdCoverImage1.3.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/promotion/template/pc/part/mdFloatingBanner1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/promotion/template/pc/part/mdFreeDisplayAd1.4.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/promotion/template/pc/part/mdIconTitle1.6.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/promotion/template/pc/part/mdMoreLink1.5.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/promotion/template/pc/part/mdQueryRanking1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/promotion/template/pc/part/mdSearchBox_b1.1.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/shp_edit/cms/promotion/template/pc/part/mdSNSButton1.4.css">
+
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/css/mdBannerList1.1.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/css/mdLowerDescription1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/css/mdPageNavigation1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/css/mdSiteMap1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/bottom/pc/css/mdAnchorNavi1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/bottom/pc/css/mdBuyBuyStoreNote1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/bottom/pc/css/mdCouponDetail1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/bottom/pc/css/mdCouponSituation1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/bottom/pc/css/mdFurusatoPOP1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/bottom/pc/css/mdSearchItem1.0.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/bottom/pc/css/mdTAA1.1.css">
+<link rel="stylesheet" href="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/css/override1.0.css">
+
+<style>
+[class*=mdPageNavigation] .elNaviItem:nth-of-type(5){order:1}
+[class*=mdPageNavigation] .elNaviItem:nth-of-type(3),[class*=mdPageNavigation] .elNaviItem:nth-of-type(4),[class*=mdPageNavigation] .elNaviItem:nth-of-type(6),[class*=mdPageNavigation] .elNaviItem:nth-of-type(7),[class*=mdPageNavigation] .elNaviItem:nth-of-type(8),[class*=mdPageNavigation] .elNaviItem:nth-of-type(9){order:2}
+[class^=mdFreeDisplayAd].elFeaturedProducts .elSpecialItemsTitle{display:none}
+[class^=mdFreeDisplayAd].elFeaturedProducts .elLargeList{padding-top:0}
+[class*=mdModalContents] .elText.elBottom{display: none}
+</style><div class="mdEventBanner_01 tracked_mods target_modules" id="evr5bnr" style="display: none;">
+  <a id="anchor_mdEventBanner_01" data-anchor="afterSticky"></a>
+  <div class="ptEventBanner_01">
+    <a data-ylk="slk:etc_img;pos:1" data-cl-params="_cl_link:etc_img;_cl_position:1" href="https://shopping.yahoo.co.jp/promotion/campaign/ppevr5/">
+      <img src="https://s.yimg.jp/images/shp_edit/cms/promotion/campaign/ppevr5/bnr/162_750_80.png" alt="PayPay支払いで毎日5%貯まる　※上限あり">
+    </a>
+  </div>
+</div><div class="mdNextScheduleNotice_01">
+  <a id="anchor_mdNextScheduleNotice_01" data-anchor></a>
+  <div class="ptNextScheduleNotice_01__text_01">
+    <div class="elTextWrap">
+      <p class="elTitle"><span class="elEmphasis">告知</span></p>
+      <p class="elMainText">5月/6月～ 大型企画 最大27.5％付与　お得なクーポン・抽選・セール(最大70％OFF)など<a class="elLink" href="https://shopping.yahoo.co.jp/promotion/campaign/guide/">その他予定</a> ※日程・内容は変更あり</p>
+    </div>
+  </div>
+</div><div class="mdPageNavigation target_modules" data-libsticky data-libsticky-id="nav_top" id="nav01">
+  <div class="ptPageNavigation__item_01">
+    <ul class="elNaviList">
+      <li class="elNaviItem">
+        <a class="elLinkNavi elOpenPage" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/" data-cl-params="_cl_link:etc_txt;_cl_position:1;">特集トップ</a>
+      </li>
+      <li class="elNaviItem">
+        <a class="elLinkNavi" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/" data-cl-params="_cl_link:etc_txt;_cl_position:2;">クーポン</a>
+        <div class="elInnerContents">
+          <ul class="elInnerMenu">
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/#anchor_mdCoupon_content_01" data-cl-params="_cl_link:childlink;_cl_position:1;">クーポン獲得</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/#anchor_mdCoupon_content_02" data-cl-params="_cl_link:childlink;_cl_position:2;">対象商品</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/#anchor_mdCoupon_content_03" data-cl-params="_cl_link:childlink;_cl_position:3;">対象ストア一覧</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/#anchor_mdCoupon_content_04" data-cl-params="_cl_link:childlink;_cl_position:4;">ご利用時の注意事項</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="elNaviItem">
+        <a class="elLinkNavi" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/" data-cl-params="_cl_link:etc_txt;_cl_position:3;">定番</a>
+        <div class="elInnerContents">
+          <ul class="elInnerMenu">
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_01" data-cl-params="_cl_link:childlink;_cl_position:5;">スイーツ・お菓子</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_02" data-cl-params="_cl_link:childlink;_cl_position:6;">グルメ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_03" data-cl-params="_cl_link:childlink;_cl_position:7;">ドリンク・お酒</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_04" data-cl-params="_cl_link:childlink;_cl_position:8;">焼き菓子詰め合わせ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_05" data-cl-params="_cl_link:childlink;_cl_position:9;">名入れワイン</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_06" data-cl-params="_cl_link:childlink;_cl_position:10;">チーズケーキ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_07" data-cl-params="_cl_link:childlink;_cl_position:11;">ドリップコーヒー</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="elNaviItem">
+        <a class="elLinkNavi" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/" data-cl-params="_cl_link:etc_txt;_cl_position:4;">個包装</a>
+        <div class="elInnerContents">
+          <ul class="elInnerMenu">
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_01" data-cl-params="_cl_link:childlink;_cl_position:12;">チョコレート・チョコスナック</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_02" data-cl-params="_cl_link:childlink;_cl_position:13;">焼き菓子・クッキー</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_03" data-cl-params="_cl_link:childlink;_cl_position:14;">おせんべい</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_04" data-cl-params="_cl_link:childlink;_cl_position:15;">和菓子</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_05" data-cl-params="_cl_link:childlink;_cl_position:16;">ハンカチ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_06" data-cl-params="_cl_link:childlink;_cl_position:17;">プチブーケ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_07" data-cl-params="_cl_link:childlink;_cl_position:18;">スイーツ・お菓子</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="elNaviItem">
+        <a class="elLinkNavi" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/" data-cl-params="_cl_link:etc_txt;_cl_position:5;">有名ブランド</a>
+        <div class="elInnerContents">
+          <ul class="elInnerMenu">
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_01" data-cl-params="_cl_link:childlink;_cl_position:19;">公式 ロイズ<br>Yahoo!ショッピング店</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_02" data-cl-params="_cl_link:childlink;_cl_position:20;">ゴディバ(GODIVA)</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_03" data-cl-params="_cl_link:childlink;_cl_position:21;">リーガロイヤルホテル<br>グルメストア</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_04" data-cl-params="_cl_link:childlink;_cl_position:22;">キハチオンラインショップ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_05" data-cl-params="_cl_link:childlink;_cl_position:23;">神戸フランツ スイーツ&ギフト</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_06" data-cl-params="_cl_link:childlink;_cl_position:24;">リンツ チョコレートLindt</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="elNaviItem">
+        <a class="elLinkNavi" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/" data-cl-params="_cl_link:etc_txt;_cl_position:6;">ご予算別</a>
+        <div class="elInnerContents">
+          <ul class="elInnerMenu">
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_01" data-cl-params="_cl_link:childlink;_cl_position:25;">1,999円以下</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_02" data-cl-params="_cl_link:childlink;_cl_position:26;">2,000円以上</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_03" data-cl-params="_cl_link:childlink;_cl_position:27;">3,000円台</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_04" data-cl-params="_cl_link:childlink;_cl_position:28;">4,000円以上</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_05" data-cl-params="_cl_link:childlink;_cl_position:29;">1,000円以下</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_06" data-cl-params="_cl_link:childlink;_cl_position:30;">人気のカテゴリを価格別で見る</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="elNaviItem">
+        <a class="elLinkNavi" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/" data-cl-params="_cl_link:etc_txt;_cl_position:7;">ファッション</a>
+        <div class="elInnerContents">
+          <ul class="elInnerMenu">
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_01" data-cl-params="_cl_link:childlink;_cl_position:31;">ネックレス</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_02" data-cl-params="_cl_link:childlink;_cl_position:32;">ピアス</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_03" data-cl-params="_cl_link:childlink;_cl_position:33;">スマホケース</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_04" data-cl-params="_cl_link:childlink;_cl_position:34;">エコバッグ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_05" data-cl-params="_cl_link:childlink;_cl_position:35;">スカーフ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_06" data-cl-params="_cl_link:childlink;_cl_position:36;">ブランドハンカチ</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="elNaviItem">
+        <a class="elLinkNavi" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/ranking/" data-cl-params="_cl_link:etc_txt;_cl_position:8;">ランキング・ボーナス</a>
+        <div class="elInnerContents">
+          <ul class="elInnerMenu">
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/ranking/#anchor_mdRanking_content_01" data-cl-params="_cl_link:childlink;_cl_position:37;">スイーツ・お菓子</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/ranking/#anchor_mdRanking_content_03" data-cl-params="_cl_link:childlink;_cl_position:39;">ドリンク・お酒</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/ranking/#anchor_mdRanking_content_04" data-cl-params="_cl_link:childlink;_cl_position:40;">ファッション・アクセサリー<br>・美容家電</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="elNaviItem">
+        <a class="elLinkNavi" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/" data-cl-params="_cl_link:etc_txt;_cl_position:9;">相手別</a>
+        <div class="elInnerContents">
+          <ul class="elInnerMenu">
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_03" data-cl-params="_cl_link:childlink;_cl_position:43;">友人・職場へ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_02" data-cl-params="_cl_link:childlink;_cl_position:42;">お子様へ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_01" data-cl-params="_cl_link:childlink;_cl_position:41;">恋人・パートナーへ</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_04" data-cl-params="_cl_link:childlink;_cl_position:44;">合格祝い</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_05" data-cl-params="_cl_link:childlink;_cl_position:45;">卒業祝い</a></li>
+            <li class="elWrapperMenu"><a class="elMenuLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_06" data-cl-params="_cl_link:childlink;_cl_position:46;">退職祝い</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><div class="wpSignboardWrap"><div class="mdCoverImage_01">
+  <a id="anchor_mdCoverImage_01" data-anchor></a>
+  <h1 class="elPromotionCoverPC"><img src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_mainvisual_img_01.png" width="1440" height="294" alt="お返しも、お祝いも　心に残るギフト　ホワイトデー＆春ギフト2025"></h1>
+</div><div class="mdFreeDisplayAd_01 elFeaturedProducts elLfpm1 target_modules" id="ad01">
+  <div class="ptSpecialItemsLarge_01">
+    <p class="elSpecialItemsTitle">今年のイチオシ、クーポン対象ギフト</p>
+    <div class="elCarousel" data-libCarousel data-libcarousel-id="freeDisplayAdLarge">
+      <div class="elPanel" data-libCarousel-parts="stage">
+        <ul class="elLargeList" data-libCarousel-parts="panel">
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BA969VF257EW803703D39DF0618-gdkduv&amp;rd&#x3D;https%3A%2F%2Fshopping.geocities.jp%2Fsomurie%2Fevent%2Fwd%2F&amp;sig&#x3D;Ymrsuq6ez4%2B9HlAc%2Bh4vSeUIhaBBuJTmos8RLTbPvv8%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:0;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg32823/667896" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">注目の商品</li>
+                    <li class="elAdditionText"></li>
+                  </ul>
+                  <p class="elItemName">ブランド多数！ホワイトデー特集</p>
+                  <p class="elPriceText">1,188円〜</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BA83EVF25BCV16EFA03D3B0304C8-gdkduv&amp;rd&#x3D;https%3A%2F%2Fshopping.geocities.jp%2Ffuubian%2Ftokusetu%2Fwhiteday%2F2025%2Fsale-index.html&amp;sig&#x3D;xqe%2B8u%2B3abxN9xJEPiFar4jIk2EF9poAtd%2FIsABsXms%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:1;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg93946/667916" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">注目の商品</li>
+                    <li class="elAdditionText">配送日指定</li>
+                  </ul>
+                  <p class="elItemName">ホワイトデー！スイーツギフト特集</p>
+                  <p class="elPriceText">356円〜</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BA7D3VF257BX13C03D39D10BA0-gdkduv&amp;rd&#x3D;https%3A%2F%2Fshopping.geocities.jp%2Falevelshop%2Fevent%2Fwhiteday.html&amp;sig&#x3D;%2FgH3k8ACHyWoOssKSny%2BXBUNmFm%2Bh0ZaGXcsk8gZgrg%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:2;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg316/667854" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">注目の商品</li>
+                    <li class="elAdditionText">ラッピング</li>
+                  </ul>
+                  <p class="elItemName">人気ブランドの雑貨多数勢揃い！</p>
+                  <p class="elPriceText">3,630円〜</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BA983VF2C41W323503D58CF1170-gdkduv&amp;rd&#x3D;https%3A%2F%2Fshopping.geocities.jp%2Fkasutera1ban%2Fwhiteday%2Findex.html&amp;sig&#x3D;AN8WHkUikwtWd5DLEf7eei0yDPdWyMb5r1AAZQplbmY%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:3;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg12853/667918" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">注目の商品</li>
+                    <li class="elAdditionText">配送日指定</li>
+                  </ul>
+                  <p class="elItemName">絶対失敗しない！30〜50代向ギフト</p>
+                  <p class="elPriceText">1,458円〜</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BA74CVF27CW39FA503D44390A08-gdkduv&amp;rd&#x3D;https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Froycemall%2Fcab4a642c14.html&amp;sig&#x3D;S5%2Bf5%2BvURTCClZTErLyA7uGuS%2Fx%2FTlayAVewxLuSXWM%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:4;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg237477/667621" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">注目の商品</li>
+                    <li class="elAdditionText"></li>
+                  </ul>
+                  <p class="elItemName">スイートセレクション[13個入]</p>
+                  <p class="elPriceText">1,188円〜</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BA749VF241AW9E7703D34340770-gdkduv&amp;rd&#x3D;https%3A%2F%2Fshopping.geocities.jp%2Fmtgec%2Fproducts%2Fbeauty%2Frefa%2Fgift%2Findex.html&amp;sig&#x3D;LuBHIn05Bi17HOXHB8b7BnijRslJt2kRnhuoP8hJyiA%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:5;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg40567/663604" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">注目の商品</li>
+                    <li class="elAdditionText"></li>
+                  </ul>
+                  <p class="elItemName">ReFa Gift Selection</p>
+                  <p class="elPriceText">5,500円〜</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BA74BVF2677X99503D3E150E60-gdkduv&amp;rd&#x3D;https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffrantz%2Fwhiteday.html&amp;sig&#x3D;s0wPAaTxCMQv4u%2FBv80o57Wr4q7pR2%2BS1mC1nHQWPec%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:6;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg2453/668074" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">配送日指定</li>
+                    <li class="elAdditionText"></li>
+                  </ul>
+                  <p class="elItemName">お返し鉄板チョコ！神戸苺トリュフ</p>
+                  <p class="elPriceText">1,296円〜</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BA74AVF274CW582603D41EB0898-gdkduv&amp;rd&#x3D;https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgodiva%2Fwhiteday.html&amp;sig&#x3D;ZvfZHNlsDlKwy%2FD94F9k6g0xDNcUOJWbvz6Vh2LfGpE%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:7;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg22566/668247" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">注目の商品</li>
+                    <li class="elAdditionText">新入荷</li>
+                  </ul>
+                  <p class="elItemName">早春のベルギーコレクション</p>
+                  <p class="elPriceText">2,376円〜</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BAC41VF2636V2188C03D3D0310F0-gdkduv&amp;rd&#x3D;https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flindt%2F9701624.html&amp;sig&#x3D;6MeN5yk3MExVxlsPE30xHy9zpeFUjXictxCQ4bhcEo8%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:8;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg137356/668027" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">注目の商品</li>
+                    <li class="elAdditionText">新入荷</li>
+                  </ul>
+                  <p class="elItemName">リンドール リボンギフトボックス</p>
+                  <p class="elPriceText">1,980円</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="elLargeCell">
+            <div class="elLinkWrap">
+              <a href="https://ck.storematch.jp/bc?d&#x3D;11044D83F32X1C6V2202C01BAC3FVF2625V19E7C03D3CAC10E8-gdkduv&amp;rd&#x3D;https%3A%2F%2Fshopping.geocities.jp%2Fstyleonbag%2Fs1%2Findex.html&amp;sig&#x3D;nY2HpBK77zwBv3FNhvWc7dsBuUdopgUSJW5GI4H4MUA%3D&amp;v&#x3D;1.0" class="elLink" data-cl-params="_cl_link:lglink;_cl_position:9;">
+                <div class="elImageWrapper"><img class="elCellImg" src="https://cdn.storematch.jp/d/dpimg106108/668007" alt=""></div>
+                <div class="elTextWrap">
+                  <ul class="elGrayText">
+                    <li class="elAdditionText">注目の商品</li>
+                    <li class="elAdditionText">配送日指定</li>
+                  </ul>
+                  <p class="elItemName">人気の北欧キャリーや本革財布</p>
+                  <p class="elPriceText">2,530円〜</p>
+                </div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <ul class="elCarouselButton">
+        <li><a href="javascript:void(0);" class="elPrev elHide" data-libCarousel-parts="pagination-prev">前へ</a></li>
+        <li><a href="javascript:void(0);" class="elNext elHide" data-libCarousel-parts="pagination-next">次へ</a></li>
+      </ul>
+    </div>
+  </div>
+</div></div><div class="wpContainerWrap"><div class="wpContainer elMainContents"><div class="mdIconTitle_01">
+  <a id="anchor_mdTop_content_01" data-anchor></a>
+  <div class="ptMain_01">
+    <h2 class="elMainTitle">カテゴリから探す</h2>
+  </div>
+</div><div class="mdBannerList_01">
+  <div class="ptBannerList_01 target_modules" id="bnr01">
+    <ul class="elContentList">
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:1" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_01_01.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_01_01.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">定番スイーツ&グルメ</p>
+              <p class="elExplainCategory">毎年人気のギフトで、失敗なし</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:2" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_01_02.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_01_02.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">個包装・プチギフト</p>
+              <p class="elExplainCategory">複数人に配るカジュアルなギフト</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:3" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_01_03.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_01_03.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">ファッション</p>
+              <p class="elExplainCategory">お相手の好みや、ライフスタイルにあうものを選んで</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:4" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_01_04.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_01_04.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">有名ブランド</p>
+              <p class="elExplainCategory">品質とデザインに優れた、高級感のあるギフト</p>
+            </div>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div></div><div class="wpContainer elMainContents"><div class="mdIconTitle_01">
+  <a id="anchor_mdTop_content_02" data-anchor></a>
+  <div class="ptMain_01">
+    <h2 class="elMainTitle">ご予算で探す</h2>
+  </div>
+</div><div class="mdBannerList_01">
+  <div class="ptBannerList_01 target_modules" id="bnr02">
+    <ul class="elContentList">
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:1" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_01">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_02_01.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_02_01.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">1,999円以下</p>
+              <p class="elExplainCategory">カジュアルなお返しに</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:2" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_02">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_02_02.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_02_02.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">2,000円以上</p>
+              <p class="elExplainCategory">大切な人に贈るギフト</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:3" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_03">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_02_03.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_02_03.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">3,000円台</p>
+              <p class="elExplainCategory">グルメやスイーツ詰め合わせなど</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:4" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_04">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_02_04.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_02_04.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">4,000円以上</p>
+              <p class="elExplainCategory">こだわりの品で、目上の人にも</p>
+            </div>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div></div><div class="wpContainer elMainContents"><div class="mdIconTitle_01">
+  <a id="anchor_mdTop_content_03" data-anchor></a>
+  <div class="ptMain_01">
+    <h2 class="elMainTitle">贈り方・テーマから探す</h2>
+  </div>
+</div><div class="mdBannerList_01">
+  <div class="ptBannerList_01 target_modules" id="bnr03">
+    <ul class="elContentList">
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:1" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_03_01.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_03_01.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">相手別ソーシャルギフト</p>
+              <p class="elExplainCategory">住所を聞かなくてOK！　受取場所・時間はお相手が指定できます</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:2" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_03_02.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_03_02.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">先着順クーポン</p>
+              <p class="elExplainCategory">人気のストア・ブランドもお求めやすく</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:3" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/ranking/">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_03_03.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_03_03.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">ランキング</p>
+              <p class="elExplainCategory">クーポン対象＆ボーナスストアの人気ランキング</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:4" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/furusato/">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/pc/images/top_index_img_03_04.png" width="236" height="188" alt="">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/sh/contents/event/whiteday/2025/sp/images/top_index_img_03_04.png" width="171" height="130" alt="">
+            </p>
+            <div class="elTextWrap">
+              <p class="elCategoryTitle">ふるさと納税</p>
+              <p class="elExplainCategory">全国の銘菓・名品からギフトを探す</p>
+            </div>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div></div><div class="wpContainer"><div class="mdBannerList_01 elColumn1 elBorderRadiusNone">
+  <div class="ptBannerList_01 target_modules" id="bnr06">
+    <ul class="elContentList">
+      <li class="elListItem">
+        <div class="elBannerWrapper">
+          <a class="elLink" data-cl-params="_cl_link:etc_img;_cl_position:1" href="https://shopping.yahoo.co.jp/promotion/event/socialgift/">
+            <p class="elBannerImage">
+              <img class="elImage isPC" src="https://s.yimg.jp/images/shp_edit/notice/socialgift/campaign/202503/bnr/01_950_70.png" width="950" height="70" alt="ホワイトデーキャンペーン 2025年3月3日～3月17日 ソーシャルギフト注文で10回に1回の確率で全額戻る ※条件あり。商品券（上限3,000円分）は利用期限あり">
+              <img class="elImage isSP" src="https://s.yimg.jp/images/shp_edit/notice/socialgift/campaign/202503/bnr/01_600_100.png" width="300" height="50" alt="ソーシャルギフト注文 10回に1回の確率で最大3,000円分もらえる ※2025/3/3～2025/3/17開催、条件あり">
+            </p>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div></div><div class="wpContainer"><div class="mdIconTitle_01">
+  <div class="ptMain_01">
+    <h2 class="elMainTitle">動画から探す</h2>
+  </div>
+</div><div class="mdMovieSearch target_modules" id="whiteday">
+  <script src="https://s.yimg.jp/images/yvpub/player/js/player.js?v=1741062631527"></script>
+  <div class="elWrapper">
+    <div class="elHeader">
+      <p class="elHeaderText"></p>
+    </div>
+    <ul class="elMovieList">
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/timelovers/ltpv007l-7b1.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item1;_cl_position:1;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video11440709"
+                class="yvpub-player"
+                data-contentid="11440709"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer0"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail hide" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/yvpubthum11440709-689dcbca56d61fd143b6c07eb65ed5ea.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">スタンダード（CASIO）</p>
+              <p class="elSubTitle">並行輸入品 10年保証 日本未発売 CASIO STANDARD カシオ スタンダード LTP-V007L-7B1 腕時計 時計 ブランド レディース チープカシオ チプカシ アナログ</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/henri-charpentier/cfc-30fg.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item2;_cl_position:2;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video14116340"
+                class="yvpub-player"
+                data-contentid="14116340"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer1"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/yvpubthum14116340-27b2ed0617886362c317c091c106693e.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">C3シーキューブ</p>
+              <p class="elSubTitle">ホワイトデー ケーキ 誕生日ケーキ お菓子 2025 スイーツ プレゼント ギフト C3 ※同梱不可 フラワーケーキ＜ショコラ＆フレーズ＞CFC-30FG △</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/henri-charpentier/cyt-9d.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item3;_cl_position:3;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video11546669"
+                class="yvpub-player"
+                data-contentid="11546669"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer2"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/yvpubthum11546669-60c90efcca8c3355bf462b36e9a43ec6.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">C3シーキューブ</p>
+              <p class="elSubTitle">ホワイトデー 2025 お菓子 ギフト 詰め合わせ スイーツ 個包装 焼き菓子 シーキューブ C3 焼きティラミス 6個入り CYT-10-N</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/kitahama-sweets/souffle-chiboust.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item4;_cl_position:4;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video15899846"
+                class="yvpub-player"
+                data-contentid="15899846"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer3"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-047a2558e250d10a7067441d5ee00228/15899846-a5aeeeb388ba5fdc619872a8391639d2/img/1722910569/thumbnail.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">天空のスイーツ</p>
+              <p class="elSubTitle">天空のチーズケーキ 送料無料 ヒルナンデス スイーツ 誕生日 プチ ホワイトデー ギフト お取り寄せ 冷凍</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/henri-charpentier/hf-10gln28.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item5;_cl_position:5;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video11547008"
+                class="yvpub-player"
+                data-contentid="11547008"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer4"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/yvpubthum11547008-95c590623b02a30ee33d4839fc8c3e3a.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">アンリ・シャルパンティエ</p>
+              <p class="elSubTitle">ホワイトデー お菓子 ギフト 詰め合わせ スイーツ 個包装 焼き菓子 アンリ フィナンシェ 8個入 ＜ 金塊パッケージ ＞ HF-11GL-N</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/henri-charpentier/cashs-15v2.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item6;_cl_position:6;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video19077229"
+                class="yvpub-player"
+                data-contentid="19077229"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer5"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/fab4a23a-c272-4cc2-8888-332acad2afaa.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle"></p>
+              <p class="elSubTitle">ホワイトデー 2025 チョコ以外 お菓子 ギフト スイーツ 個包装 シーキューブ C3 ミルク＆ショコラ ハッピースイートアソート M ※お届けは3/14まで CASHS-18VW</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/shopsourire/1005-1140.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item7;_cl_position:7;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video18590216"
+                class="yvpub-player"
+                data-contentid="18590216"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer6"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-047a2558e250d10a7067441d5ee00228/18590216-49328512a5c1cba4e40523ad601149f2/img/1737102224/thumbnail.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">ブラックサンダー</p>
+              <p class="elSubTitle">ホワイトデー お返し チョコレート お菓子 詰め合わせ ブラックサンダー 25個 ポイント利用</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/timelovers/smq24uc.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item8;_cl_position:8;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video11440511"
+                class="yvpub-player"
+                data-contentid="11440511"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer7"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/yvpubthum11440511-ef4cfd62bd46c366ab2541399468e309.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">スタンダード（CASIO）</p>
+              <p class="elSubTitle">並行輸入品 10年保証 CASIO STANDARD カシオ スタンダード MQ-24UC 腕時計 時計 ブランド メンズ 男の子 チープカシオ チプカシ アナログ</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/kitahama-sweets/tenku-pudding-assorted2.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item9;_cl_position:9;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video15917702"
+                class="yvpub-player"
+                data-contentid="15917702"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer8"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-047a2558e250d10a7067441d5ee00228/15917702-cf91c36f5172de020d3fe0c07958b1f3/img/1723000609/thumbnail.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">天空のスイーツ</p>
+              <p class="elSubTitle">ホワイトデー ギフト 送料無料 天空のプリン アソート 2箱セット 濃厚 最高級 誕生日 ホワイトデー ギフト 送料無料 プリン 瓶 詰め合わせ</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/timelovers/mtp-m305d.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item10;_cl_position:10;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video13918283"
+                class="yvpub-player"
+                data-contentid="13918283"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer9"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/yvpubthum13918283-99bf14023cb9a18392b36675427946d4.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">スタンダード（CASIO）</p>
+              <p class="elSubTitle">並行輸入品 10年保証 日本未発売 CASIO STANDARD MENS カシオ MTP-M305D 腕時計 ブランド メンズ チープカシオ チプカシ アナログ メタル</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/kitahama-sweets/souffle-set.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item11;_cl_position:11;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video15899846"
+                class="yvpub-player"
+                data-contentid="15899846"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer10"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-047a2558e250d10a7067441d5ee00228/15899846-a5aeeeb388ba5fdc619872a8391639d2/img/1722910569/thumbnail.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">天空のスイーツ</p>
+              <p class="elSubTitle">ホワイトデー ギフト 送料無料 チーズケーキ 天空のチーズケーキ食べ比べセット (プレーン 抹茶) 誕生日 人気 バスク</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/bundara/fruitmix2.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item12;_cl_position:12;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video19250543"
+                class="yvpub-player"
+                data-contentid="19250543"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer11"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/f73a9325-d019-4df6-95d9-22e78526881b.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle"></p>
+              <p class="elSubTitle">ホワイトデー お返し おしゃれ ギフト スイーツ プレゼント 子供 和歌山県産 若桃入 フルーツミックスコンポート140g ショート瓶 お洒落な瓶入 ゼリー wd (fy2)</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/kitahama-sweets/cc-set171.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item13;_cl_position:13;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video11916494"
+                class="yvpub-player"
+                data-contentid="11916494"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer12"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-047a2558e250d10a7067441d5ee00228/11916494-ce51f6ac3f8165b1d4bb5c0cbdc626dd/img/1702263413/thumbnail.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">ブランド登録なし</p>
+              <p class="elSubTitle">退職 卒業 転勤の挨拶に人気のお菓子 メッセージクッキー かわいいどうぶつたちのお礼30枚セット お世話になりました 個包装 プリントクッキー</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/bundara/fruitmix3.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item14;_cl_position:14;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video19250543"
+                class="yvpub-player"
+                data-contentid="19250543"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer13"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/f73a9325-d019-4df6-95d9-22e78526881b.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle"></p>
+              <p class="elSubTitle">ホワイトデー お返し 2025 プレゼント スイーツ ギフト 果実の宝石箱 フルーツゼリー 若桃入フルーツミックスコンポート140g×6本入  内祝い (fy6)</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/henri-charpentier/hta-30awn.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item15;_cl_position:15;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video17447639"
+                class="yvpub-player"
+                data-contentid="17447639"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer14"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/9d6397cf-f486-4737-81b2-f6f9c1f19a7e.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">アンリ・シャルパンティエ</p>
+              <p class="elSubTitle">ホワイトデー お菓子 ギフト タルト 詰め合わせ スイーツ 個包装 焼き菓子 アンリ タルト・フリュイ・アソート S 秋冬 ※お届けは3/31まで</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/timelovers/s-ltpv004d.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item16;_cl_position:16;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video16399739"
+                class="yvpub-player"
+                data-contentid="16399739"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer15"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/12233b7c-7ce8-4ccc-b672-c8710f7c0e04.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">スタンダード（CASIO）</p>
+              <p class="elSubTitle">並行輸入品 10年保証 日本未発売 CASIO STANDARD LADYS カシオ スタンダード LTP-V004D 腕時計 時計 ブランド レディース チープ チプカシ アナログ 日付</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/bundara/jellyball3.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item17;_cl_position:17;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video19252766"
+                class="yvpub-player"
+                data-contentid="19252766"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer16"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/6ef3dc2a-8257-412e-80c7-8003996c7965.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle"></p>
+              <p class="elSubTitle">ホワイトデー お返し 2025 スイーツ ギフト  フルーツゼリーボールコンポート3本セット 送料無料 お菓子 おしゃれ 果汁たっぷり！  (fy5)</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/henri-charpentier/hf-4n28.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item18;_cl_position:18;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video11547008"
+                class="yvpub-player"
+                data-contentid="11547008"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer17"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/yvpubthum11547008-95c590623b02a30ee33d4839fc8c3e3a.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">アンリ・シャルパンティエ</p>
+              <p class="elSubTitle">ホワイトデー プチギフト お菓子 300円台 退職 おしゃれ 個包装 プレゼント ギフト お礼 アンリ フィナンシェ 2個入 HF-3EC ※オンラインショップ限定</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/timelovers/s-la670wa.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item19;_cl_position:19;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video15937103"
+                class="yvpub-player"
+                data-contentid="15937103"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer18"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/yvpubthum15937103-d3a73ea8c00daa247d275f85d89f08d7.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle">スタンダード デジタル</p>
+              <p class="elSubTitle">並行輸入品 10年保証 CASIO STANDARD LADYS カシオ スタンダード LA670WA 腕時計 時計 ブランド レディース チープカシオ チプカシ デジタル 日付 メタル</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="elMovie">
+        <a class="elItemUrl" href=https://store.shopping.yahoo.co.jp/bundara/konpeitou30.html?sc_i&#x3D;shopping-pc-web-promotion-feature-movie-item data-cl-params="_cl_link:item20;_cl_position:20;">
+          <div class="elMoviePlayerWrapper">
+            <div class="elMoviePlayer">
+              <div
+                id="video19262978"
+                class="yvpub-player"
+                data-contentid="19262978"
+                data-height="248"
+                data-autostart="0"
+                data-control="0"
+                data-fullscreen="0"
+                data-mute="1"
+                data-title="0"
+                data-recommend="0"
+                data-screenname=""
+                data-servicekey="shopping"
+                data-plugin-css-common="/images/shp-delivery/css/modules-ui-library/video.css"
+                data-id="yvpubplayer19"
+              ></div>
+            </div>
+          </div>
+          <div class="elDetail ">
+            <img class="elThumbnail" src="https://yvpub-pctr.c.yimg.jp/dk/yvpub-bucket001-west/contents/yvpub-content-7674508c6a5dfed9e150873f205a3000/images/2b03b3a1-9640-420e-9194-61f9f00a76e9.jpg" alt="" loading="lazy" />
+            <div class="elTitles">
+              <p class="elTitle"></p>
+              <p class="elSubTitle">ホワイトデー お返し 職場 内祝い ギフト プチギフト 退職 お礼 挨拶 配りもの メッセージ入り 金平糖（こんぺいとう）30g 12セットまでネコポス便 wd (fy1)</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <div class="elMore">
+      <a class="elMoreLink" href="https://shopping.yahoo.co.jp/search?mall_tag&#x3D;movie_whiteday&amp;mv&#x3D;1&amp;sc_i&#x3D;shopping-pc-web-promotion-feature-movie-btn" data-cl-params="_cl_link:btn;">もっと見る</a>
+    </div>
+  </div>
+</div>
+<script>
+// ドキュメントの読み込みをチェック
+if (document.readyState === 'loading') {
+  // 読み込み中ならばDOMContentLoadedリスナーを設定
+  document.addEventListener('DOMContentLoaded', function () {
+    MovieSearchModule.init();
+  });
+} else { 
+  // 読み込み完了している場合はJSを実施
+  MovieSearchModule.init();
+}
+</script></div><div class="wpJumpLink"><div class="mdIconTitle_01">
+  <a id="anchor_mdIconTitle_01" data-anchor></a>
+  <div class="ptMain_01">
+    <h2 class="elMainTitle">サイトマップ</h2>
+  </div>
+</div>
+
+<div class="mdSiteMap target_modules" id="map01">
+  <div class="ptSiteMap__item_01">
+    <ul class="elSectionList">
+      <li class="elSectionFrame">
+        <p class="elSectionTitle">
+          <a class="elTitleLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/" data-cl-params="_cl_link:seclink;_cl_position:1;">クーポン</a>
+        </p>
+        <ul class="elInnerList">
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/#anchor_mdCoupon_content_01" data-cl-params="_cl_link:dtllink;_cl_position:1;">クーポン獲得</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/#anchor_mdCoupon_content_02" data-cl-params="_cl_link:dtllink;_cl_position:2;">対象商品</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/#anchor_mdCoupon_content_03" data-cl-params="_cl_link:dtllink;_cl_position:3;">対象ストア一覧</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/coupon/#anchor_mdCoupon_content_04" data-cl-params="_cl_link:dtllink;_cl_position:4;">ご利用時の注意事項</a></li>
+        </ul>
+      </li>
+      <li class="elSectionFrame">
+        <p class="elSectionTitle">
+          <a class="elTitleLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/" data-cl-params="_cl_link:seclink;_cl_position:2;">定番スイーツ＆グルメ</a>
+        </p>
+        <ul class="elInnerList">
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_01" data-cl-params="_cl_link:dtllink;_cl_position:5;">スイーツ・お菓子</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_02" data-cl-params="_cl_link:dtllink;_cl_position:6;">グルメ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_03" data-cl-params="_cl_link:dtllink;_cl_position:7;">ドリンク・お酒</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_04" data-cl-params="_cl_link:dtllink;_cl_position:8;">焼き菓子詰め合わせ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_05" data-cl-params="_cl_link:dtllink;_cl_position:9;">名入れワイン</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_06" data-cl-params="_cl_link:dtllink;_cl_position:10;">チーズケーキ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/special/#anchor_mdSpecial_content_07" data-cl-params="_cl_link:dtllink;_cl_position:11;">ドリップコーヒー</a></li>
+        </ul>
+      </li>
+      <li class="elSectionFrame">
+        <p class="elSectionTitle">
+          <a class="elTitleLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/" data-cl-params="_cl_link:seclink;_cl_position:3;">個包装・プチギフト</a>
+        </p>
+        <ul class="elInnerList">
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_01" data-cl-params="_cl_link:dtllink;_cl_position:12;">チョコレート・チョコスナック</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_02" data-cl-params="_cl_link:dtllink;_cl_position:13;">焼き菓子・クッキー</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_03" data-cl-params="_cl_link:dtllink;_cl_position:14;">おせんべい</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_04" data-cl-params="_cl_link:dtllink;_cl_position:15;">和菓子</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_05" data-cl-params="_cl_link:dtllink;_cl_position:16;">ハンカチ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_06" data-cl-params="_cl_link:dtllink;_cl_position:17;">プチブーケ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/smallgift/#anchor_mdSmallgift_content_07" data-cl-params="_cl_link:dtllink;_cl_position:18;">スイーツ・お菓子</a></li>
+        </ul>
+      </li>
+      <li class="elSectionFrame">
+        <p class="elSectionTitle">
+          <a class="elTitleLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/" data-cl-params="_cl_link:seclink;_cl_position:4;">有名ブランド・高級プレミアム</a>
+        </p>
+        <ul class="elInnerList">
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_01" data-cl-params="_cl_link:dtllink;_cl_position:19;">公式 ロイズ Yahoo!ショッピング店</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_02" data-cl-params="_cl_link:dtllink;_cl_position:20;">ゴディバ(GODIVA)</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_03" data-cl-params="_cl_link:dtllink;_cl_position:21;">リーガロイヤルホテルグルメストア</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_04" data-cl-params="_cl_link:dtllink;_cl_position:22;">キハチオンラインショップ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_05" data-cl-params="_cl_link:dtllink;_cl_position:23;">神戸フランツ スイーツ&ギフト</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/extra/#anchor_mdExtra_content_06" data-cl-params="_cl_link:dtllink;_cl_position:24;">リンツ チョコレートLindt</a></li>
+        </ul>
+      </li>
+      <li class="elSectionFrame">
+        <p class="elSectionTitle">
+          <a class="elTitleLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/" data-cl-params="_cl_link:seclink;_cl_position:5;">ご予算から選ぶ</a>
+        </p>
+        <ul class="elInnerList">
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_01" data-cl-params="_cl_link:dtllink;_cl_position:25;">1,999円以下</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_02" data-cl-params="_cl_link:dtllink;_cl_position:26;">2,000円以上</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_03" data-cl-params="_cl_link:dtllink;_cl_position:27;">3,000円台</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_04" data-cl-params="_cl_link:dtllink;_cl_position:28;">4,000円以上</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_05" data-cl-params="_cl_link:dtllink;_cl_position:29;">1,000円以下</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/budget/#anchor_mdBudget_content_06" data-cl-params="_cl_link:dtllink;_cl_position:30;">人気のカテゴリを価格別で見る</a></li>
+        </ul>
+      </li>
+      <li class="elSectionFrame">
+        <p class="elSectionTitle">
+          <a class="elTitleLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/" data-cl-params="_cl_link:seclink;_cl_position:6;">ファッション・アクセサリー</a>
+        </p>
+        <ul class="elInnerList">
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_01" data-cl-params="_cl_link:dtllink;_cl_position:31;">ネックレス</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_02" data-cl-params="_cl_link:dtllink;_cl_position:32;">ピアス</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_03" data-cl-params="_cl_link:dtllink;_cl_position:33;">スマホケース</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_04" data-cl-params="_cl_link:dtllink;_cl_position:34;">エコバッグ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_05" data-cl-params="_cl_link:dtllink;_cl_position:35;">スカーフ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/fashion/#anchor_mdFashion_content_06" data-cl-params="_cl_link:dtllink;_cl_position:36;">ブランドハンカチ</a></li>
+        </ul>
+      </li>
+      <li class="elSectionFrame">
+        <p class="elSectionTitle">
+          <a class="elTitleLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/ranking/" data-cl-params="_cl_link:seclink;_cl_position:7;">ランキング・ボーナスストア</a>
+        </p>
+        <ul class="elInnerList">
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/ranking/#anchor_mdRanking_content_01" data-cl-params="_cl_link:dtllink;_cl_position:37;">スイーツ・お菓子</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/ranking/#anchor_mdRanking_content_03" data-cl-params="_cl_link:dtllink;_cl_position:39;">ドリンク・お酒</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/ranking/#anchor_mdRanking_content_04" data-cl-params="_cl_link:dtllink;_cl_position:40;">ファッション・アクセサリー・美容家電</a></li>
+        </ul>
+      </li>
+      <li class="elSectionFrame">
+        <p class="elSectionTitle">
+          <a class="elTitleLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/" data-cl-params="_cl_link:seclink;_cl_position:8;">ソーシャルギフト</a>
+        </p>
+        <ul class="elInnerList">
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_03" data-cl-params="_cl_link:dtllink;_cl_position:43;">友人・職場へ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_02" data-cl-params="_cl_link:dtllink;_cl_position:42;">お子様へ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_01" data-cl-params="_cl_link:dtllink;_cl_position:41;">恋人・パートナーへ</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_04" data-cl-params="_cl_link:dtllink;_cl_position:44;">合格祝い</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_05" data-cl-params="_cl_link:dtllink;_cl_position:45;">卒業祝い</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/recipient/#anchor_mdRecipient_content_06" data-cl-params="_cl_link:dtllink;_cl_position:46;">退職祝い</a></li>
+        </ul>
+      </li>
+      <li class="elSectionFrame">
+        <p class="elSectionTitle">
+          <a class="elTitleLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/furusato/" data-cl-params="_cl_link:seclink;_cl_position:9;">ふるさと納税</a>
+        </p>
+        <ul class="elInnerList">
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/furusato/#anchor_mdFurusato_content_01" data-cl-params="_cl_link:dtllink;_cl_position:47;">チョコレート</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/furusato/#anchor_mdFurusato_content_02" data-cl-params="_cl_link:dtllink;_cl_position:48;">焼き菓子・クッキー</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/furusato/#anchor_mdFurusato_content_03" data-cl-params="_cl_link:dtllink;_cl_position:49;">和菓子</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/furusato/#anchor_mdFurusato_content_04" data-cl-params="_cl_link:dtllink;_cl_position:50;">ドリンク・お酒</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/furusato/#anchor_mdFurusato_content_05" data-cl-params="_cl_link:dtllink;_cl_position:51;">花</a></li>
+          <li class="elLinkItem"><a class="elInnerLink" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/furusato/#anchor_mdFurusato_content_06" data-cl-params="_cl_link:dtllink;_cl_position:52;">スカーフ</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div><div class="mdSNS">
+  <div class="ptSNS__item">
+    <ul class="elList">
+      <li class="elListItem elFacebook">
+        <a class="elLink" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fshopping.yahoo.co.jp%2Fpromotion%2Fevent%2Fseasonal%2Fwhiteday%2F" target="_blank">Facebook</a>
+      </li>
+      <li class="elListItem elX">
+        <a class="elLink" href="https://x.com/intent/post?original_referer=https%3A%2F%2Fshopping.yahoo.co.jp%2Fpromotion%2Fevent%2Fseasonal%2Fwhiteday%2F&text=%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%87%E3%83%BC%E3%81%AE%E3%81%8A%E8%BF%94%E3%81%97%E3%80%81%E5%90%88%E6%A0%BC%E7%A5%9D%E3%81%84%E3%80%81%E9%80%80%E8%81%B7%E7%A5%9D%E3%81%84%E3%80%812025%E5%B9%B4%E6%98%A5%E3%81%AE%E3%82%AE%E3%83%95%E3%83%88%E3%81%8C%E5%85%A8%E9%83%A8%E3%81%9D%E3%82%8D%E3%81%86Yahoo%21%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%EF%BC%81%E3%80%80%E4%BA%BA%E6%B0%97%E3%81%AE%E3%82%B9%E3%83%88%E3%82%A2%E3%83%BB%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E3%81%8C%E5%AF%BE%E8%B1%A1%E3%81%AE%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E3%82%82%E9%85%8D%E5%B8%83%E3%80%82%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E3%82%84%E3%82%AF%E3%83%83%E3%82%AD%E3%83%BC%E3%80%81%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC%E3%81%AA%E3%81%A9%E3%80%81%E5%96%9C%E3%81%B0%E3%82%8C%E3%82%8B%E3%82%AE%E3%83%95%E3%83%88%E3%81%8C%E3%83%90%E3%83%A9%E3%82%A8%E3%83%86%E3%82%A3%E8%B1%8A%E5%AF%8C%E3%81%AB%E6%8F%83%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82&url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fpromotion%2Fevent%2Fseasonal%2Fwhiteday%2F" target="_blank">X</a>
+      </li>
+      <li class="elListItem elLine">
+        <a class="elLink" href="https://line.me/R/msg/text/?%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%87%E3%83%BC%E3%81%AE%E3%81%8A%E8%BF%94%E3%81%97%E3%80%81%E5%90%88%E6%A0%BC%E7%A5%9D%E3%81%84%E3%80%81%E9%80%80%E8%81%B7%E7%A5%9D%E3%81%84%E3%80%812025%E5%B9%B4%E6%98%A5%E3%81%AE%E3%82%AE%E3%83%95%E3%83%88%E3%81%8C%E5%85%A8%E9%83%A8%E3%81%9D%E3%82%8D%E3%81%86Yahoo%21%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%EF%BC%81%E3%80%80%E4%BA%BA%E6%B0%97%E3%81%AE%E3%82%B9%E3%83%88%E3%82%A2%E3%83%BB%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E3%81%8C%E5%AF%BE%E8%B1%A1%E3%81%AE%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E3%82%82%E9%85%8D%E5%B8%83%E3%80%82%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E3%82%84%E3%82%AF%E3%83%83%E3%82%AD%E3%83%BC%E3%80%81%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC%E3%81%AA%E3%81%A9%E3%80%81%E5%96%9C%E3%81%B0%E3%82%8C%E3%82%8B%E3%82%AE%E3%83%95%E3%83%88%E3%81%8C%E3%83%90%E3%83%A9%E3%82%A8%E3%83%86%E3%82%A3%E8%B1%8A%E5%AF%8C%E3%81%AB%E6%8F%83%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%20https%3A%2F%2Fshopping.yahoo.co.jp%2Fpromotion%2Fevent%2Fseasonal%2Fwhiteday%2F" target="_blank">LINE</a>
+      </li>
+    </ul>
+  </div>
+</div></div><div class="wpContainer"><div class="mdIconTitle_01">
+  <div class="ptMain_01">
+    <h2 class="elMainTitle">キーワードから探す</h2>
+  </div>
+</div><div class="mdSearchBox_01">
+  <a id="anchor_mdSearchBox_01" data-anchor></a>
+  <div data-promo-part-seasonalsearchbox="" data-promo-part-seasonalsearchbox-focusaddword="ホワイトデー" class="ptSearchBox_01__item_01 elFilterCondition target_modules" id="srch01">
+    <a id="anchor_ptSearchBox_01__item_01" data-anchor></a>
+    <div class="elSearchBoxWrap">
+      <div class="elSearchBox" data-promo-part-searchmodule="">
+        <form action="https://shopping.yahoo.co.jp/search" method="get" id="YshHdSearch">
+          <input type="hidden" name="ei" value="UTF-8">
+          <input type="hidden" name="rkf" value="1">
+          <input type="hidden" name="sc_i" value="">
+          <input type="hidden" name="webview" value="1">
+          <div class="elForm">
+            <div class="elKeyword"><p class="elKeywordInner"><input type="search" placeholder="ホワイトデーのお返しギフトを探す" name="p"></p></div>
+            <div class="elDetail"><a data-cl-params="_cl_link:mdl_txt;_cl_position:1;" href="javascript:void(0);">こだわり条件</a></div>
+            <div class="elButton"><p class="elSubmit"><span class="elSearchInner"><input data-cl-params="_cl_link:ser_bt;_cl_position:1;" type="submit" value="検索"></span></p></div>
+          </div>
+          <div class="elDetailWrap">
+            <p class="elClose"><a data-cl-params="_cl_link:mdl_txt;_cl_position:2;" href="javascript:void(0);"><span class="elCloseButton">閉じる</span></a></p>
+            <div class="elDetailBox">
+              <div>
+                  <div class="elHeaderWrap">
+                    <div class="elTitle"><p class="elHeadText">こだわり条件を追加</p><p class="elClear"><span><button type="button" onclick="formReset()">選択した条件をクリア</button></span></p></div>
+                  </div>
+                <div class="elConditionsWrap">
+                  <div class="elCategory">
+                    <p class="elAdditionItem">カテゴリ</p>
+                    <div class="elSettingItem">
+                      <div class="elSelect elCategorySelect">
+                      <select name="cid" class="elSelectClear">
+                        <option value="">すべてのカテゴリから</option>
+                        <option value="2494">レディースファッション</option>
+                        <option value="2495">メンズファッション</option>
+                        <option value="2496">腕時計、アクセサリー</option>
+                        <option value="2498">食品</option>
+                        <option value="2499">ドリンク、水、お酒</option>
+                        <option value="2513">アウトドア、釣り、旅行用品</option>
+                        <option value="2500">ダイエット、健康グッズ</option>
+                        <option value="2501">コスメ、美容、ヘアケア</option>
+                        <option value="2502">スマホ、タブレット、パソコン</option>
+                        <option value="2504">テレビ、オーディオ、カメラ</option>
+                        <option value="2505">家電</option>
+                        <option value="2506">家具、インテリア</option>
+                        <option value="2507">花、ガーデニング</option>
+                        <option value="2508">キッチン、日用品、文具</option>
+                        <option value="2503">DIY、工具</option>
+                        <option value="2509">ペット用品、生き物</option>
+                        <option value="2510">楽器、手芸、コレクション</option>
+                        <option value="2511">ゲーム、おもちゃ</option>
+                        <option value="2497">ベビー、キッズ、マタニティ</option>
+                        <option value="2512">スポーツ</option>
+                        <option value="2514">車、バイク、自転車</option>
+                        <option value="2516">CD、音楽ソフト、チケット</option>
+                        <option value="2517">DVD、映像ソフト</option>
+                        <option value="10002">本、雑誌、コミック</option>
+                        <option value="47727">レンタル、各種サービス</option>
+                      </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="elCategory">
+                    <p class="elAdditionItem">送料</p>
+                    <div class="elSettingItem">
+                      <ul class="elCheckList">
+                        <li class="elListItem"><label class="elCheckbox"><input type="checkbox" name="ship" value="on"><span>送料無料</span></label></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="elCategory">
+                    <p class="elAdditionItem">商品状態</p>
+                    <div class="elSettingItem">
+                      <ul class="elCircleList">
+                        <li class="elListItem"><label class="elRadioCircle"><input type="radio" name="used" value="" checked><span>指定なし</span></label></li>
+                        <li class="elListItem"><label class="elRadioCircle"><input type="radio" name="used" value="2"><span>新品</span></label></li>
+                        <li class="elListItem"><label class="elRadioCircle"><input type="radio" name="used" value="1"><span>中古</span></label></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="elCategory">
+                    <p class="elAdditionItem">価格帯</p>
+                    <div class="elSettingItem elPriceWrap">
+                      <div class="elSelect elPriceSelect">
+                        <select name="pf" class="elSelectClear">
+                          <option value="">下限なし</option>
+                          <option value="1000">1,000</option>
+                          <option value="3000">3,000</option>
+                          <option value="5000">5,000</option>
+                          <option value="10000">10,000</option>
+                          <option value="20000">20,000</option>
+                          <option value="30000">30,000</option>
+                          <option value="50000">50,000</option>
+                        </select>
+                      </div>
+                      <p class="elPriceUnit">円</p>
+                      <p class="elPriceRange">〜</p>
+                      <div class="elSelect elPriceSelect">
+                        <select name="pt" class="elSelectClear">
+                          <option value="">上限なし</option>
+                          <option value="1000">1,000</option>
+                          <option value="3000">3,000</option>
+                          <option value="5000">5,000</option>
+                          <option value="10000">10,000</option>
+                          <option value="20000">20,000</option>
+                          <option value="30000">30,000</option>
+                          <option value="50000">50,000</option>
+                        </select>
+                      </div>
+                      <p class="elPriceUnit">円</p>
+                    </div>
+                  </div>
+                  <div class="elCategory">
+                    <p class="elAdditionItem">配送</p>
+                    <div class="elSettingItem elDeliveryWrap">
+                      <div class="elDeliveryPlace">
+                        <p class="elPlaceText">お届け先の都道府県</p>
+                        <div class="elSelect elDeliverySelect">
+                          <select name="area" class="elSelectDefault">
+                            <option value="01">北海道</option>
+                            <option value="02">青森県</option>
+                            <option value="03">岩手県</option>
+                            <option value="04">宮城県</option>
+                            <option value="05">秋田県</option>
+                            <option value="06">山形県</option>
+                            <option value="07">福島県</option>
+                            <option value="08">茨城県</option>
+                            <option value="09">栃木県</option>
+                            <option value="10">群馬県</option>
+                            <option value="11">埼玉県</option>
+                            <option value="12">千葉県</option>
+                            <option value="13" selected>東京都</option>
+                            <option value="14">神奈川県</option>
+                            <option value="15">新潟県</option>
+                            <option value="16">富山県</option>
+                            <option value="17">石川県</option>
+                            <option value="18">福井県</option>
+                            <option value="19">山梨県</option>
+                            <option value="20">長野県</option>
+                            <option value="21">岐阜県</option>
+                            <option value="22">静岡県</option>
+                            <option value="23">愛知県</option>
+                            <option value="24">三重県</option>
+                            <option value="25">滋賀県</option>
+                            <option value="26">京都府</option>
+                            <option value="27">大阪府</option>
+                            <option value="28">兵庫県</option>
+                            <option value="29">奈良県</option>
+                            <option value="30">和歌山県</option>
+                            <option value="31">鳥取県</option>
+                            <option value="32">島根県</option>
+                            <option value="33">岡山県</option>
+                            <option value="34">広島県</option>
+                            <option value="35">山口県</option>
+                            <option value="36">徳島県</option>
+                            <option value="37">香川県</option>
+                            <option value="38">愛媛県</option>
+                            <option value="39">高知県</option>
+                            <option value="40">福岡県</option>
+                            <option value="41">佐賀県</option>
+                            <option value="42">長崎県</option>
+                            <option value="43">熊本県</option>
+                            <option value="44">大分県</option>
+                            <option value="45">宮崎県</option>
+                            <option value="46">鹿児島県</option>
+                            <option value="47">沖縄県</option>
+                          </select>
+                        </div>
+                      </div>
+                      <ul class="elCircleList">
+                        <li class="elListItem"><label class="elRadioCircle"><input type="radio" name="astk" value="" checked><span>指定なし</span></label></li>
+                        <li class="elListItem"><label class="elRadioCircle"><input type="radio" name="astk" value="1"><span>最短明日お届け</span></label></li>
+                        <li class="elListItem"><label class="elRadioCircle"><input type="radio" name="astk" value="2"><span>最短明後日お届け</span></label></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div></div></div><script>
+  //=== user setting ===
+  //localStrageのID。入力必須
+  var feature_id='whiteday2025';
+  //=== end user setting ===
+  var strage_id='shopping.promotion.nps.'+feature_id+'.status';
+  var npsstatus=0;
+   
+  function npsModule(){
+      $("#enquete").find('.enq_btn').on("click",function(){
+  　//ボタンを押した後、localStrageに値をセット
+      localStorage.setItem('npsdone', 1);
+      localStorage.setItem(strage_id, 1);
+  　//アンケートを非表示にし、回答完了の表示を行う。
+      $("#enquete").addClass("hidden");
+      $("#nps_thanks").removeClass("hidden");
+   
+      });
+   
+      //セッションストレージをチェック
+      if(sessionStorage.getItem(strage_id)){
+          sessionstatus="1";
+      }else{
+  　    //値をセット
+          sessionstatus="セッション中初回訪問";
+          sessionStorage.setItem(strage_id, 1);
+      }
+      //回答済みかをチェック
+      if(localStorage.getItem(strage_id)){
+          npsstatus="1";
+      }else{
+          npsstatus="0";
+      }
+   
+      if(npsstatus=="0"){
+          $("#nps_wrap").removeClass("hidden");
+      }
+   
+  }
+   
+  function removeLocalStorage(){
+      localStorage.removeItem(strage_id);
+      //localStorage.clear();
+      //console.log('remove');
+  }
+  function removeSessionStrage(){
+      sessionStorage.removeItem(strage_id)
+  }
+  function hidepopup(){
+      localStorage.setItem(strage_id, ['test','1']);
+      $("#nps_wrap").addClass("hidden");
+  }
+   
+  </script>
+   
+  <div id="nps_wrap" class="mdEnquete_normal hidden target_modules"  data-cl-params="_cl_module:nps_wrap">
+      <div id="enquete" class="mdEnquete_question">
+          <p class="mdEnquete_question_text">このページを家族や知人に薦める可能性は、５点満点中何点ですか？ </p>
+          <ul class="mdEnquete_question_btn_list">
+              <li><button class="enq_btn" data-ylk="slk:nps;pos:0" data-cl-params="_cl_link:nps;_cl_position:0;">0</button></li>
+              <li><button class="enq_btn" data-ylk="slk:nps;pos:1" data-cl-params="_cl_link:nps;_cl_position:1;">1</button></li>
+              <li><button class="enq_btn" data-ylk="slk:nps;pos:2" data-cl-params="_cl_link:nps;_cl_position:2;">2</button></li>
+              <li><button class="enq_btn" data-ylk="slk:nps;pos:3" data-cl-params="_cl_link:nps;_cl_position:3;">3</button></li>
+              <li><button class="enq_btn" data-ylk="slk:nps;pos:4" data-cl-params="_cl_link:nps;_cl_position:4;">4</button></li>
+              <li><button class="enq_btn" data-ylk="slk:nps;pos:5" data-cl-params="_cl_link:nps;_cl_position:5;">5</button></li>
+          </ul>
+      </div>
+      <div id="nps_thanks" class="hidden">
+          <p class="mdEnquete_thanks_ttl">ご回答ありがとうございました。</p>
+          <p class="mdEnquete_thanks_text">いただいたご意見はYahoo!ショッピングの品質向上のため、参考にさせていただきます。</p>
+      </div>
+  </div>
+   
+  <script>
+      npsModule();
+  </script><div class="wpFooterWrap"><div class="mdLowerDescription">
+  <div class="ptowerDescription__text_01">
+    <ul class="elPromotionDetail">
+      <li class="elPromotionName">ホワイトデー＆春ギフト2025</li>
+      <li class="elPromotionDate">広告掲載期間：2025/2/14（金）～3/20（木）</li>
+    </ul>
+    <div class="elEventList">
+      <p class="elEventTitle">Yahoo!ショッピングの季節イベント</p>
+    </div>
+  </div>
+</div><div class="mdSeasonEvent tracked_mods target_modules" id="six01">
+  <a id="anchor_ptSeason_event01" data-anchor="afterSticky"></a>
+  <ul class="elItems">
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:1;" data-cl-params="_cl_link:cmp_txt;_cl_position:1;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/fukubukuro/">
+        <p>福袋</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:2;" data-cl-params="_cl_link:cmp_txt;_cl_position:2;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/newyear/">
+        <p>新春SALE</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:3;" data-cl-params="_cl_link:cmp_txt;_cl_position:3;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/valentine/">
+        <p>バレンタイン</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:4;" data-cl-params="_cl_link:cmp_txt;_cl_position:4;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/whiteday/">
+        <p>ホワイトデー</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:5;" data-cl-params="_cl_link:cmp_txt;_cl_position:5;" href="https://shopping.yahoo.co.jp/promotion/event/category/lifestyle/">
+        <p>新生活</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:6;" data-cl-params="_cl_link:cmp_txt;_cl_position:6;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/mothersday/">
+        <p>母の日</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:7;" data-cl-params="_cl_link:cmp_txt;_cl_position:7;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/fathersday/">
+        <p>父の日</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:8;" data-cl-params="_cl_link:cmp_txt;_cl_position:8;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/summergift/">
+        <p>お中元</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:9;" data-cl-params="_cl_link:cmp_txt;_cl_position:9;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/keirou/">
+        <p>敬老の日</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:10;" data-cl-params="_cl_link:cmp_txt;_cl_position:10;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/halloween/">
+        <p>ハロウィン</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:11;" data-cl-params="_cl_link:cmp_txt;_cl_position:11;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/osechi/">
+        <p>おせち</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:12;" data-cl-params="_cl_link:cmp_txt;_cl_position:12;" href="https://shopping.yahoo.co.jp/promotion/event/category/food/seafood/">
+        <p>カニ＆海鮮</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:13;" data-cl-params="_cl_link:cmp_txt;_cl_position:13;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/wintergift/">
+        <p>冬ギフト</p>
+      </a>
+    </li>
+    <li class="elItem">
+      <a data-ylk="slk:cmp_txt;pos:14;" data-cl-params="_cl_link:cmp_txt;_cl_position:14;" href="https://shopping.yahoo.co.jp/promotion/event/seasonal/christmas/">
+        <p>クリスマス</p>
+      </a>
+    </li>
+  </ul>
+</div></div><div class="mdPromoCommonFloating_01" data-promo-commonfloating data-promo-commonfloating-type="float"
+  data-promo-commonfloating-items="0" data-promo-commonfloating-iscrmbinital="false">
+  <p class="elPageTop">
+    <a href="#pagetop" data-libanchor>ページトップへ</a>
+  </p>
+</div>
+</div>
+<div class="gdColumns gd1ColumnA">
+
+</div>
+</div>
+<!-- /shpMain -->
+<!-- shpFooter -->
+<div id="shpFooter" class="tracked_mods target_modules">
+    
+    
+
+    
+        <div id="pg_top" class="mdJumpAnchor">
+            <p class="elTop"><a href="#pagetop" data-libAnchor>ページトップへ</a></p>
+        </div>
+    
+
+    
+        <div class="uiFooterDefault">
+            
+            
+                <shp-corporate-info done="https%3A%2F%2Fshopping.yahoo.co.jp%2Fpromotion%2Fevent%2Fseasonal%2Fwhiteday%2F" ></shp-corporate-info>
+            
+        </div>
+    
+    
+</div>
+<!-- /shpFooter -->
+</div>
+<!-- /shpPage -->
+</div>
+<!-- /shpWrapper -->
+</div>
+<!-- /wrapper -->
+<script src="https://s.yimg.jp/images/shp_front/pc/promotion/js/cre2.0.js" data-crejs data-crejs-options='{"header":{"version":"2.7"}, "crm":{"version":"1.2"}}'></script><script  type="text/javascript">var MovieSearchModule = {};
+var players = {};
+var activePlayer = undefined;
+var slideWidth = 0;
+var FIRST_PLAYER_ID = 'yvpubplayer0';
+var isMdMovieSearchVisible = false;
+var mdMovieSearch = document.querySelector('.mdMovieSearch');
+var track = mdMovieSearch.querySelector('.elMovieList');
+
+// プレイヤーの再生状態とサムネイル画像の表示状態を更新
+MovieSearchModule.updatePlayerStatus = function (player, isVisible) {
+  var elThumbnail = player.closest('.elMovie').querySelector('.elThumbnail');
+
+  if (isVisible && !player.isPlaying()) {
+    player.play();
+    elThumbnail.classList.add('hide');
+    // activePlayerを更新
+    activePlayer = player;
+  } else if (!isVisible && player.isPlaying()) {
+    player.pause();
+    elThumbnail.classList.remove('hide');
+  }
+};
+
+// となりのスライドに移動
+MovieSearchModule.nextSlide = function () {
+  var currentScrollLeft = track.scrollLeft; // 現在のスクロール位置
+  var newScrollLeft = currentScrollLeft + slideWidth; // となりのスライドまでのスクロール位置
+
+  track.scrollTo({
+    left: newScrollLeft,
+    behavior: 'smooth'
+  });
+};
+
+// プレイヤーのサイズをリサイズする関数
+MovieSearchModule.resizePlayers = function () {
+  var elMoviePlayer = document.querySelector('.mdMovieSearch .elMoviePlayer');
+  var width = elMoviePlayer.offsetWidth;
+  var height = elMoviePlayer.offsetHeight;
+
+  Object.keys(players).forEach(function (id) {
+    players[id].resize(width, height);
+  });
+};
+
+// デバウンス
+MovieSearchModule.debounce = function (fn, interval) {
+  var timer
+  return function() {
+    clearTimeout(timer)
+    timer = setTimeout(function() {
+      fn()
+    }, interval)
+  }
+}
+
+// モジュールの可視状態をチェックし、再生状態を更新
+MovieSearchModule.checkModuleVisibility = function () {
+  requestAnimationFrame( function() {
+    var moduleRect = mdMovieSearch.getBoundingClientRect();
+    isMdMovieSearchVisible =
+    moduleRect.top < window.innerHeight && moduleRect.bottom >= 0;
+    // モジュールが見えていて再生されている場合は何もしない
+    if (!(isMdMovieSearchVisible && activePlayer && activePlayer.isPlaying())) {
+      MovieSearchModule.updatePlayerStatus(activePlayer, isMdMovieSearchVisible);
+    }
+  });
+};
+
+MovieSearchModule.init = function () {
+  mdMovieSearch = document.querySelector('.mdMovieSearch');
+  track = mdMovieSearch.querySelector('.elMovieList');
+  var elMovie = mdMovieSearch.querySelector('.elMovie');
+  var style = window.getComputedStyle(elMovie);
+  var marginLeft = parseFloat(style.marginLeft);
+  var marginRight = parseFloat(style.marginRight);
+  var scrollMarginLeft = parseFloat(style.scrollMarginLeft);
+  slideWidth = elMovie.offsetWidth + marginLeft + marginRight;
+
+  var rootMarginRight = track.offsetWidth - slideWidth;
+
+  YAHOO.JP.yvpub.video.init();
+
+  window.onYvpubPlayerReady = function (option) {
+    var player = document.getElementById(option.id).getPlayer();
+    players[option.id] = player;
+
+    // 最初のプレイヤーをactivePlayerに設定・スクロールイベントを設定
+    if (player.id === FIRST_PLAYER_ID) {
+      activePlayer = player;
+      
+      // 初回チェック
+      MovieSearchModule.checkModuleVisibility();
+      
+      window.addEventListener(
+        'scroll',
+        MovieSearchModule.debounce(MovieSearchModule.checkModuleVisibility, 200)
+      );
+    }
+
+    // 動画再生終了時に次のスライドに移動
+    player.addEventListener('yvpubEndVideo', function () {
+      MovieSearchModule.nextSlide();
+    });
+
+    MovieSearchModule.resizePlayers();
+
+    // 各プレイヤーにObserverをセット
+    /* eslint-disable compat/compat */
+    var playerObserver = new IntersectionObserver(
+      function (entries) {
+        if (entries[0].isIntersecting) {
+          MovieSearchModule.updatePlayerStatus(player, isMdMovieSearchVisible);
+        } else {
+          MovieSearchModule.updatePlayerStatus(player, false);
+        }
+      },
+      {
+        root: mdMovieSearch, // 監視範囲（要素）
+        rootMargin:
+          '0px -' + rootMarginRight + 'px 0px -' + scrollMarginLeft + 'px', // 監視範囲（左端の動画）
+        threshold: 0.8
+      }
+    );
+    /* eslint-enable compat/compat */
+
+    playerObserver.observe(player.closest('.elMovie'));
+  };
+
+  // elMoviePlayerのwidthが変わったら、全playerをリサイズ
+  /* eslint-disable compat/compat */
+  var resizeObserver = new ResizeObserver(function () {
+    MovieSearchModule.resizePlayers();
+  });
+  /* eslint-enable compat/compat */
+  resizeObserver.observe(mdMovieSearch.querySelector('.elMoviePlayer'));
+};
+</script>
+    <script src="https://s.yimg.jp/images/ds/cl/ds-custom-logger-1.1.0.min.js"></script>
+    <script>
+      (function(){
+        var customLogger = new DSCustomLogger.CustomLogger();
+        var customLoggerCore = customLogger.setHierarchyid(1155022642)
+          .setPageData({"service":"shopping","conttype":"feature","pagetype":"promotion","status":"logout","apptype":"web","opttype":"pc","metakwd":"ホワイトデー,ホワイトデー お返し,ホワイトデー 2025,人気,お菓子,チョコレート,ブランド,プレゼント,ホワイトデーのお返し,彼女,友達へのお返し,2025,クーポン,Yahoo!ショッピング,ランキング,義理,個包装,職場,おしゃれ,ばらまき,スイーツ,定番","premium":"g","visit_tp":"New","stmp_rnk":"g","yjcard":"g","ppcard":"g","sblogin":"g","age":"g","promoid":"shopping:promotion:event:seasonal:whiteday","mode":"shopping","appname":null,"hotdeal":"0"})
+          .targetClass()
+          .targetViewableClass()
+          .startViewable()
+          .initCustomLoggerCore();
+        YAHOO.JP.shp.ins = customLoggerCore;
+        
+        window.module = window.module || {};
+        window.module.export = window.module.export || {};
+        window.module.export.customLoggerCore = customLoggerCore;
+      })();
+    </script>
+  <script>
+  (function() {
+    var customLoggerCore = window.module.export.customLoggerCore;
+
+    var option = {
+      service: 'shp',
+      device: 'pc',
+      pageId: 'promotion',
+      customLogger: customLoggerCore,
+      crumb: 'AueBxmcBlsMZnLRVHy9s9tqU69B32eTIU7e9eJzWlLhHR8zYxLwFkW0WzXTm5Wycl-ceXMIdwL4_mNaM-OCDri-Iw5hYGuPiOi8iO9JP5RXN9YhZKW8iKv_sk8XkNpq9IOBrpwtp'
+    };
+
+    YAHOO.JP.shp.shp_front_delivery.init(option);
+  })();
+</script>
+  <script src="https://s.yimg.jp/images/shp-delivery/modules/1.0/masthead.js"></script><script src="https://s.yimg.jp/images/shp-delivery/modules/1.0/emg.js"></script><script src="https://s.yimg.jp/images/shp-delivery/modules/1.0/messageHeader.js"></script><script src="https://s.yimg.jp/images/shp-delivery/modules/1.1/corporateInfo.js"></script><script src="https://s.yimg.jp/images/shp-delivery/utils/1.0/ptahLinkParamsUpdater.js" defer></script><script src="https://s.yimg.jp/images/shp-delivery/modules/1.0/searchHeaderPc.js"></script><script src="https://s.yimg.jp/images/sh/cms/common/promotionTemplate/common/js/libSticky1.4.js"></script>
+<script src="https://s.yimg.jp/images/shp_front/smartphone/_library/js/cre/libSticky1.18.js"></script>
+<script src="https://s.yimg.jp/images/sh/cms/common/promotionTemplate/common/js/promoCommonFloating1.0.js"></script>
+<script>
+$(function(){
+  $('[data-libSticky-id="nav_top"]').libSticky({forceTouchDevice: true});
+  $('[data-promo-commonfloating]').promoCommonFloating()
+});
+</script>
+<script>
+$('[data-promo-part-seasonalSearchBox] .elDetail a').on('click', function(){
+    var target = $(this).closest('[data-promo-part-seasonalSearchBox]');
+    var keyword = target.find('.elSearchBox .elKeyword input').val();
+    target
+      .find('.elDetailWrap')
+      .css('display', 'block')
+      .find('.elKeyword input').val(keyword);
+  });
+  $('[data-promo-part-seasonalSearchBox] .elClose').on('click', function(){
+    var target = $(this).closest('[data-promo-part-seasonalSearchBox]');
+    target
+      .find('.elDetailWrap')
+      .css('display', 'none');
+  });
+  $('[data-promo-part-searchmodule] form').on('submit', function(){
+    var addWords = [];
+    $(this).find('[data-promo-part-searchmodule-addQuery]:checked').each(function(){
+      addWords.push($(this).val());
+      $(this).prop('disabled', true);
+    });
+    if(addWords.length > 0){
+      var $keyword = $(this).find('.elKeyword input');
+      $keyword.val($keyword.val() + ' ' + addWords.join(' '));
+    }
+  });
+  $('[data-promo-part-seasonalSearchBox]').each(function(){
+    var autoAddWord = $(this).attr('data-promo-part-seasonalsearchbox-focusaddword');
+    if(autoAddWord){
+      $(this).find('input[name="p"]').on('focus.seasonal', function(){
+        if($(this).val() === ''){
+          $(this).val(autoAddWord + ' ');
+        }
+      });
+    }
+  });
+  function formReset() {
+    $('[data-promo-part-seasonalSearchBox] .elDetailWrap select.elSelectClear').val(''),
+    $('[data-promo-part-seasonalSearchBox] .elDetailWrap select.elSelectDefault').val('13'),
+    $('[data-promo-part-seasonalSearchBox] .elDetailWrap input[type="checkbox"]').prop("checked", false),
+    $('[data-promo-part-seasonalSearchBox] .elDetailWrap input[type="radio"][checked]').prop("checked", true);
+  };
+</script>
+
+<script src="https://s.yimg.jp/images/sh/cms/common/promotionTemplate/common/js/libCarousel1.5.js"></script>
+<script>
+$(function(){
+  $('[data-libCarousel-id="freeDisplayAdLarge"]').libCarousel({
+  layoutMode: 'stream',
+  autoInterval:4000,
+  });
+});
+</script>
+</body>
+</html>
+<!-- mc -->

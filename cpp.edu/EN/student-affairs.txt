@@ -421,14 +421,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-
     
             
                 
     
     
     
-          
+        
  
 
 
@@ -450,32 +449,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <nav class="container">
     <ul class="row sub-nav__links">
 
-           <li class="sub-nav__link ">
-            <a class="button__proxima sub-nav__link--default" href="                                                  /student-affairs/index.shtml      " tabindex="0">Home</a>
+           <li class="sub-nav__link">
+            <a class="button__proxima sub-nav__link--default" href="/student-affairs/index.shtml" tabindex="0">Home</a>
         </li>
         
 
 
-                   <li class="sub-nav__link ">
+                   <li class="sub-nav__link">
                     <button aria-expanded="false" class="button__proxima sub-nav__link--default" data-bs-toggle="dropdown">About the Division <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" height="9" viewBox="0 0 14 9" width="14">
                         <path d="M1 1L7 7L13 1" stroke="#005030" stroke-width="2"/>
                       </svg>
                     </button>
                     <ul class="dropdown-menu sub-dropdown">
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/dsa/contact-us.shtml      " tabindex="0">Contact Us</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/dsa/contact-us.shtml" tabindex="0">Contact Us</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/dsa/leadership.shtml      " tabindex="0">Leadership Team</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/dsa/leadership.shtml" tabindex="0">Leadership Team</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/dsa/new-hires.shtml      " tabindex="0">Newly Hired Staff</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/dsa/new-hires.shtml" tabindex="0">Newly Hired Staff</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/dsa/org-chart.shtml      " tabindex="0">Organizational Chart</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/dsa/org-chart.shtml" tabindex="0">Organizational Chart</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/dsa/aboutus.shtml      " tabindex="0">Purpose, Vision and Priorities</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/dsa/aboutus.shtml" tabindex="0">Purpose, Vision and Priorities</a>
                       </li>
                           
                     </ul>
@@ -485,32 +484,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
 
 
-                   <li class="sub-nav__link ">
+                   <li class="sub-nav__link">
                     <button aria-expanded="false" class="button__proxima sub-nav__link--default" data-bs-toggle="dropdown">For Students <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" height="9" viewBox="0 0 14 9" width="14">
                         <path d="M1 1L7 7L13 1" stroke="#005030" stroke-width="2"/>
                       </svg>
                     </button>
                     <ul class="dropdown-menu sub-dropdown">
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/topics/safety.shtml      " tabindex="0">Campus Safety</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/topics/safety.shtml" tabindex="0">Campus Safety</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/topics/health.shtml      " tabindex="0">Health and Wellbeing</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/topics/health.shtml" tabindex="0">Health and Wellbeing</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/topics/meet-sa-leaders.shtml      " tabindex="0">Meet Student Affairs Leaders</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/topics/meet-sa-leaders.shtml" tabindex="0">Meet Student Affairs Leaders</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/topics/support.shtml      " tabindex="0">Programs and Support Services</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/topics/support.shtml" tabindex="0">Programs and Support Services</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/topics/diversity.shtml      " tabindex="0">Retention and Belonging</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/topics/diversity.shtml" tabindex="0">Retention and Belonging</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/topics/involvement.shtml      " tabindex="0">Student Life and Involvement</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/topics/involvement.shtml" tabindex="0">Student Life and Involvement</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/topics/policies.shtml      " tabindex="0">University Policies</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/topics/policies.shtml" tabindex="0">University Policies</a>
                       </li>
                           
                     </ul>
@@ -520,38 +519,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
 
 
-                   <li class="sub-nav__link ">
+                   <li class="sub-nav__link">
                     <button aria-expanded="false" class="button__proxima sub-nav__link--default" data-bs-toggle="dropdown">For Student Affairs Staff <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" height="9" viewBox="0 0 14 9" width="14">
                         <path d="M1 1L7 7L13 1" stroke="#005030" stroke-width="2"/>
                       </svg>
                     </button>
                     <ul class="dropdown-menu sub-dropdown">
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/sa-staff/travel-request.shtml      " tabindex="0">2023-24 Travel Request</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/sa-staff/travel-request.shtml" tabindex="0">2023-24 Travel Request</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/sa-staff/ade.shtml      " tabindex="0">Assessment, Data and Evaluation</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/sa-staff/ade.shtml" tabindex="0">Assessment, Data and Evaluation</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/sa-staff/dsabudget.shtml      " tabindex="0">Budget</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/sa-staff/dsabudget.shtml" tabindex="0">Budget</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/sa-staff/hr.shtml      " tabindex="0">HR Requests</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/sa-staff/hr.shtml" tabindex="0">HR Requests</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/sa-staff/dsamarketing.shtml      " tabindex="0">Marketing and Communications</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/sa-staff/dsamarketing.shtml" tabindex="0">Marketing and Communications</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/sa-staff/pro-dev.shtml      " tabindex="0">Professional Development</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/sa-staff/pro-dev.shtml" tabindex="0">Professional Development</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/sa-staff/vprequest.shtml      " tabindex="0">Request VP Gonzales or an AVP</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/sa-staff/vprequest.shtml" tabindex="0">Request VP Gonzales or an AVP</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/sa-staff/awards.shtml      " tabindex="0">Student Affairs Horseshoe Award</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/sa-staff/awards.shtml" tabindex="0">Student Affairs Horseshoe Award</a>
                       </li>
                                     <li>
-                        <a class="dropdown-item bs_dropdown_button__proxima " href="                                                  /student-affairs/sa-staff/volunteers.shtml      " tabindex="0">Volunteers</a>
+                        <a class="dropdown-item bs_dropdown_button__proxima" href="/student-affairs/sa-staff/volunteers.shtml" tabindex="0">Volunteers</a>
                       </li>
                           
                     </ul>
@@ -579,7 +578,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        
                        
              <li class="sub-nav__link">
-    <a class="button__proxima" href="                                                  /student-affairs/index.shtml      " tabindex="0">Home</a>
+    <a class="button__proxima" href="/student-affairs/index.shtml" tabindex="0">Home</a>
   </li>
       
 
@@ -594,23 +593,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </button> </div>
                   <div class="sub-nav__nested-dropdown show" id="nestedDropdownMenu--1">
                                             <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/dsa/contact-us.shtml      " tabindex="0">Contact Us</a>
+                           <a class="button__proxima" href="/student-affairs/dsa/contact-us.shtml" tabindex="0">Contact Us</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/dsa/leadership.shtml      " tabindex="0">Leadership Team</a>
+                           <a class="button__proxima" href="/student-affairs/dsa/leadership.shtml" tabindex="0">Leadership Team</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/dsa/new-hires.shtml      " tabindex="0">Newly Hired Staff</a>
+                           <a class="button__proxima" href="/student-affairs/dsa/new-hires.shtml" tabindex="0">Newly Hired Staff</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/dsa/org-chart.shtml      " tabindex="0">Organizational Chart</a>
+                           <a class="button__proxima" href="/student-affairs/dsa/org-chart.shtml" tabindex="0">Organizational Chart</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/dsa/aboutus.shtml      " tabindex="0">Purpose, Vision and Priorities</a>
+                           <a class="button__proxima" href="/student-affairs/dsa/aboutus.shtml" tabindex="0">Purpose, Vision and Priorities</a>
                       
                       </div>
                                    
@@ -628,31 +627,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </button> </div>
                   <div class="sub-nav__nested-dropdown show" id="nestedDropdownMenu--2">
                                             <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/topics/safety.shtml      " tabindex="0">Campus Safety</a>
+                           <a class="button__proxima" href="/student-affairs/topics/safety.shtml" tabindex="0">Campus Safety</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/topics/health.shtml      " tabindex="0">Health and Wellbeing</a>
+                           <a class="button__proxima" href="/student-affairs/topics/health.shtml" tabindex="0">Health and Wellbeing</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/topics/meet-sa-leaders.shtml      " tabindex="0">Meet Student Affairs Leaders</a>
+                           <a class="button__proxima" href="/student-affairs/topics/meet-sa-leaders.shtml" tabindex="0">Meet Student Affairs Leaders</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/topics/support.shtml      " tabindex="0">Programs and Support Services</a>
+                           <a class="button__proxima" href="/student-affairs/topics/support.shtml" tabindex="0">Programs and Support Services</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/topics/diversity.shtml      " tabindex="0">Retention and Belonging</a>
+                           <a class="button__proxima" href="/student-affairs/topics/diversity.shtml" tabindex="0">Retention and Belonging</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/topics/involvement.shtml      " tabindex="0">Student Life and Involvement</a>
+                           <a class="button__proxima" href="/student-affairs/topics/involvement.shtml" tabindex="0">Student Life and Involvement</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/topics/policies.shtml      " tabindex="0">University Policies</a>
+                           <a class="button__proxima" href="/student-affairs/topics/policies.shtml" tabindex="0">University Policies</a>
                       
                       </div>
                                    
@@ -670,39 +669,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </button> </div>
                   <div class="sub-nav__nested-dropdown show" id="nestedDropdownMenu--3">
                                             <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/sa-staff/travel-request.shtml      " tabindex="0">2023-24 Travel Request</a>
+                           <a class="button__proxima" href="/student-affairs/sa-staff/travel-request.shtml" tabindex="0">2023-24 Travel Request</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/sa-staff/ade.shtml      " tabindex="0">Assessment, Data and Evaluation</a>
+                           <a class="button__proxima" href="/student-affairs/sa-staff/ade.shtml" tabindex="0">Assessment, Data and Evaluation</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/sa-staff/dsabudget.shtml      " tabindex="0">Budget</a>
+                           <a class="button__proxima" href="/student-affairs/sa-staff/dsabudget.shtml" tabindex="0">Budget</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/sa-staff/hr.shtml      " tabindex="0">HR Requests</a>
+                           <a class="button__proxima" href="/student-affairs/sa-staff/hr.shtml" tabindex="0">HR Requests</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/sa-staff/dsamarketing.shtml      " tabindex="0">Marketing and Communications</a>
+                           <a class="button__proxima" href="/student-affairs/sa-staff/dsamarketing.shtml" tabindex="0">Marketing and Communications</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/sa-staff/pro-dev.shtml      " tabindex="0">Professional Development</a>
+                           <a class="button__proxima" href="/student-affairs/sa-staff/pro-dev.shtml" tabindex="0">Professional Development</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/sa-staff/vprequest.shtml      " tabindex="0">Request VP Gonzales or an AVP</a>
+                           <a class="button__proxima" href="/student-affairs/sa-staff/vprequest.shtml" tabindex="0">Request VP Gonzales or an AVP</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/sa-staff/awards.shtml      " tabindex="0">Student Affairs Horseshoe Award</a>
+                           <a class="button__proxima" href="/student-affairs/sa-staff/awards.shtml" tabindex="0">Student Affairs Horseshoe Award</a>
                       
                       </div>
                                     <div class="sub-nav__sub-link">
-                           <a class="button__proxima" href="                                                  /student-affairs/sa-staff/volunteers.shtml      " tabindex="0">Volunteers</a>
+                           <a class="button__proxima" href="/student-affairs/sa-staff/volunteers.shtml" tabindex="0">Volunteers</a>
                       
                       </div>
                                    
@@ -1089,203 +1088,172 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
+                
+    <div class="organism-spacer spacer__margin-bottom--medium">
 
-                            
-        <div class="organism-spacer spacer__margin-bottom--medium">
-    
-                                  
-                            <section class="cta-green-card ">
-                <div class="container">  
-                                                          <div class="row">
-                        <header class="green-card-grid__header">
-                            <div class="green-card-grid__copy">
-                                <h2 class="h4__transducer">We're Here for You</h2>
-                            </div>
-                                                  </header>
-                    </div>
-                   
-                                   
-                        <div class="cta-green-card__cards row">
-                                                                                
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/health.shtml">
-                                                                                          
-                                                                   <div class="card__icon-img">
-                                        
-                                        <i class="fas fa-heartbeat"></i>
-                                        
-                                    </div>
-                                                                   
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Campus Health and Wellbeing</h3>
-                                                                                                                    </div>
-                                                            </a>
-                                                        </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="                                                          https://www.cpp.edu/deanofstudents/index.shtml      ">
-                                                                                          
-                                                                   <div class="card__icon-img">
-                                        
-                                        <i class="fas fa-hands-helping"></i>
-                                        
-                                    </div>
-                                                                   
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Dean of Students Office</h3>
-                                                                                                                    </div>
-                                                            </a>
-                                                        </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/involvement.shtml">
-                                                                                          
-                                                                   <div class="card__icon-img">
-                                        
-                                        <i class="fas fa-table-tennis"></i>
-                                        
-                                    </div>
-                                                                   
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Student Life and Involvement</h3>
-                                                                                                                    </div>
-                                                            </a>
-                                                        </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="                                                          https://www.cpp.edu/housing/      ">
-                                                                                          
-                                                                   <div class="card__icon-img">
-                                        
-                                        <i class="fas fa-home"></i>
-                                        
-                                    </div>
-                                                                   
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">University Housing Services</h3>
-                                                                                                                    </div>
-                                                            </a>
-                                                        </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/diversity.shtml">
-                                                                                          
-                                                                   <div class="card__icon-img">
-                                        
-                                        <i class="fas fa-globe-americas"></i>
-                                        
-                                    </div>
-                                                                   
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Student Retention/Belonging</h3>
-                                                                                                                    </div>
-                                                            </a>
-                                                        </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/support.shtml">
-                                                                                          
-                                                                   <div class="card__icon-img">
-                                        
-                                        <i class="fas fa-clipboard-check"></i>
-                                        
-                                    </div>
-                                                                   
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Programs and Support Services</h3>
-                                                                                                                    </div>
-                                                            </a>
-                                                        </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="                                                          https://www.rosefloat.org/      ">
-                                                                                          
-                                                                   <div class="card__icon-img">
-                                        
-                                        <i class="fas fa-spa"></i>
-                                        
-                                    </div>
-                                                                   
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Rose Float Program</h3>
-                                                                                                                    </div>
-                                                            </a>
-                                                        </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/safety.shtml">
-                                                                                          
-                                                                   <div class="card__icon-img">
-                                        
-                                        <i class="fas fa-user-shield"></i>
-                                        
-                                    </div>
-                                                                   
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Campus Safety</h3>
-                                                                                                                    </div>
-                                                            </a>
-                                                        </div>
-                            
-                            
-                                                        
-                            <div class="col-12 col-sm-6 col-lg-4">
-                               
-                            
-                                                                                          <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/policies.shtml">
-                                                                                          
-                                                                   <div class="card__icon-img">
-                                        
-                                        <i class="fas fa-pen-square"></i>
-                                        
-                                    </div>
-                                                                   
-                                    <div class="card__body">
-                                                                                    <h3 class="h4__proxima">Policies and Procedures</h3>
-                                                                                                                    </div>
-                                                            </a>
-                                                        </div>
-                            
-                            
-                                               
-
-                    </div>    </div> 
-                </section>
+                          
+                    <section class="cta-green-card ">
+            <div class="container">  
+                                              <div class="row">
+                    <header class="green-card-grid__header">
+                        <div class="green-card-grid__copy">
+                            <h2 class="h4__transducer">We're Here for You</h2>
+                        </div>
+                                          </header>
+                </div>
+               
+                           
+                    <div class="cta-green-card__cards row">
+                                                                    
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/health.shtml">
+                                                                                        
+                                                            <div class="card__icon-img">
                                     
-                         
-                      </div>
-          
-    
+                                    <i class="fas fa-heartbeat"></i>
+                                    
+                                </div>
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Campus Health and Wellbeing</h3>
+                                                                                            </div>
+                                                            </a>
+                                                        </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="                https://www.cpp.edu/deanofstudents/index.shtml ">
+                                                                                        
+                                                            <div class="card__icon-img">
+                                    
+                                    <i class="fas fa-hands-helping"></i>
+                                    
+                                </div>
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Dean of Students Office</h3>
+                                                                                            </div>
+                                                            </a>
+                                                        </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/involvement.shtml">
+                                                                                        
+                                                            <div class="card__icon-img">
+                                    
+                                    <i class="fas fa-table-tennis"></i>
+                                    
+                                </div>
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Student Life and Involvement</h3>
+                                                                                            </div>
+                                                            </a>
+                                                        </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="                https://www.cpp.edu/housing/ ">
+                                                                                        
+                                                            <div class="card__icon-img">
+                                    
+                                    <i class="fas fa-home"></i>
+                                    
+                                </div>
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">University Housing Services</h3>
+                                                                                            </div>
+                                                            </a>
+                                                        </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/diversity.shtml">
+                                                                                        
+                                                            <div class="card__icon-img">
+                                    
+                                    <i class="fas fa-globe-americas"></i>
+                                    
+                                </div>
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Student Retention/Belonging</h3>
+                                                                                            </div>
+                                                            </a>
+                                                        </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/support.shtml">
+                                                                                        
+                                                            <div class="card__icon-img">
+                                    
+                                    <i class="fas fa-clipboard-check"></i>
+                                    
+                                </div>
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Programs and Support Services</h3>
+                                                                                            </div>
+                                                            </a>
+                                                        </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="                https://www.rosefloat.org/ ">
+                                                                                        
+                                                            <div class="card__icon-img">
+                                    
+                                    <i class="fas fa-spa"></i>
+                                    
+                                </div>
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Rose Float Program</h3>
+                                                                                            </div>
+                                                            </a>
+                                                        </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/safety.shtml">
+                                                                                        
+                                                            <div class="card__icon-img">
+                                    
+                                    <i class="fas fa-user-shield"></i>
+                                    
+                                </div>
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Campus Safety</h3>
+                                                                                            </div>
+                                                            </a>
+                                                        </div>
+                        
+                                                
+                        <div class="col-12 col-sm-6 col-lg-4">
+                                                                                                <a class="card card__link card__icon card--dark-green bar--green--with-arrow col-lg-4${iconclass}" href="topics/policies.shtml">
+                                                                                        
+                                                            <div class="card__icon-img">
+                                    
+                                    <i class="fas fa-pen-square"></i>
+                                    
+                                </div>
+                                                           
+                            <div class="card__body">
+                                                                    <h3 class="h4__proxima">Policies and Procedures</h3>
+                                                                                            </div>
+                                                            </a>
+                                                        </div>
+                        
+                                            </div>    
+                </div> 
+            </section>
+            </div>
+      
+
 
    
                     
