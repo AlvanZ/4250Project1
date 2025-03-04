@@ -40,6 +40,7 @@ def plot_heaps_law(domain, growth):
     plt.title(f"Heap's Law - {domain}")
     plt.legend()
     plt.grid()
+    plt.savefig(f"heapLaw_{domain.replace('/', '_')}.png")  # Save plot as PNG
     plt.show()
 
 # Directories to process
