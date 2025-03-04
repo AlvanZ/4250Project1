@@ -1,7 +1,7 @@
 import os
 import matplotlib.pyplot as plt
 
-def count_vocabulary_growth(directory):
+def vocabularyGrowth(directory):
     vocab = set()
     total_words = 0
     growth = []
@@ -39,5 +39,5 @@ def plot_heaps_law(domain, growth):
 directories = ["cpp.edu","taobao.com", "yahoo.co.jp"]  # Update directories
 for directory in directories:
     if os.path.exists(directory):
-        growth = count_vocabulary_growth(directory)
+        growth = vocabularyGrowth(directory)
         plot_heaps_law(directory, growth)
