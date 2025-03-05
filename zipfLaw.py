@@ -3,8 +3,8 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import csv
 
-def load_tokenized_files(directory):
-    """Load tokenized files from the directory and return a list of words."""
+def load_stemmed_files(directory):
+    """Load stemmed files from the directory and return a list of words."""
     words = []
     for file in os.listdir(directory):
         file_path = os.path.join(directory, file)
@@ -23,9 +23,9 @@ def save_top_words(sorted_words, domain, output_file):
     top_50_words = sorted_words[:50]
     with open(output_file, 'w', newline='', encoding='utf8') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["Rank", "Word", "Frequency"])  # Write header in the table csv file
+        writer.writerow(["Rank", "Word", "Frequency"])  # Write header
         for rank, (word, freq) in enumerate(top_50_words, start=1):
-            writer.writerow([f"{rank:>4}", f"{word:<15}", f"{freq:>8}"]) #readable in csv file
+            writer.writerow([rank, word, freq])  # Write rank, word, and frequency
 
 def plot_zipfs_law(ranks, frequencies, domain):
     """Plot Zipf's Law: Frequency vs Rank on a log-log scale."""
@@ -35,14 +35,14 @@ def plot_zipfs_law(ranks, frequencies, domain):
     plt.ylabel('Frequency (log scale)')
     plt.title(f"Zipf's Law - {domain}")
     plt.legend()
-    plt.grid(True) # readability
-    plt.savefig(f"zipfLaw_{domain.replace('/', '_')}.png")  # Save plot as PNG
+    plt.grid(True)  # Add grid lines for better readability
+    plt.savefig(f"zipfs_law_{domain.replace('/', '_')}.png")  # Save plot as PNG
     plt.show()
 
 def zipfs_law_analysis(directory, domain, output_file):
     """Perform Zipf's Law analysis for a given domain."""
-    # Step 1: Load tokenized words
-    words = load_tokenized_files(directory)
+    # Step 1: Load stemmed words
+    words = load_stemmed_files(directory)
     
     # Step 2: Calculate word frequencies
     word_freq = calculate_word_frequencies(words)
@@ -58,11 +58,11 @@ def zipfs_law_analysis(directory, domain, output_file):
     frequencies = [freq for _, freq in sorted_words]
     plot_zipfs_law(ranks, frequencies, domain)
 
-# Directories to process (replace with your tokenized directories)
+# Directories to process (replace with stemmed directories)
 directories = {
-    "cpp.edu/EN": "tokenized/cpp.edu/EN",       # Words1.csv
-    "taobao.com/ZH": "tokenized/taobao.com/ZH",  # Words2.csv
-    "yahoo.co.jp/JA": "tokenized/yahoo.co.jp/JA"     # Words3.csv
+     "cpp.edu/EN": "stemmed/cpp.edu/EN",
+    "taobao.com/ZH": "stemmed/taobao.com/ZH",
+    "yahoo.co.jp/JA": "stemmed/yahoo.co.jp/JA"
 }
 
 # Perform Zipf's Law analysis for each domain
