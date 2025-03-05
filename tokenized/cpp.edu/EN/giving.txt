@@ -35,12 +35,9 @@ news
 events
 future
 students
-|
 current
 students
-|
 families
-|
 faculty
 &
 staff
@@ -69,7 +66,7 @@ crisis
 via
 the
 Care
-Center.
+Center
 Give
 Now
 Broncos
@@ -87,7 +84,7 @@ the
 lives
 of
 our
-students.
+students
 Give
 Now
 Stories
@@ -97,7 +94,7 @@ Every
 gift
 has
 a
-story.
+story
 Read
 More
 About
@@ -114,7 +111,7 @@ giving
 and
 paying
 it
-forward.
+forward
 Read
 Story
 About
@@ -132,9 +129,9 @@ an
 annual
 investment
 of
-$2,500
+2,500
 or
-more.
+more
 Learn
 More
 About
@@ -153,9 +150,9 @@ business
 education
 with
 a
-$12.5
+12.5
 million
-gift.
+gift
 Learn
 More
 About
@@ -169,7 +166,7 @@ Poly
 Pomona
 Home
 Why
-Give?
+Give
 Ways
 to
 Give
@@ -197,7 +194,7 @@ Your
 Gift
 Makes
 a
-Difference!
+Difference
 Your
 gift
 to
@@ -217,9 +214,9 @@ of
 current
 and
 future
-students,
+students
 promotes
-research,
+research
 supports
 programs
 and
@@ -227,7 +224,7 @@ nourishes
 the
 greater
 Bronco
-community.
+community
 Every
 dollar
 contributes
@@ -243,7 +240,7 @@ dreams
 of
 success
 achieve
-it.
+it
 Thank
 you
 for
@@ -253,7 +250,7 @@ in
 making
 a
 lasting
-difference.
+difference
 Make
 a
 Gift
@@ -283,7 +280,7 @@ for
 the
 university’s
 fundraising
-efforts.
+efforts
 They
 strengthen
 the
@@ -292,15 +289,15 @@ educational
 mission
 by
 broadening
-partnerships,
+partnerships
 deepening
-connections,
+connections
 and
 increasing
 financial
-support,
+support
 student
-scholarships,
+scholarships
 faculty
 research
 initiatives
@@ -315,7 +312,7 @@ of
 the
 state
 and
-region.
+region
 Learn
 More
 About
@@ -343,7 +340,7 @@ Options
 Alumni
 Association
 Join
-Now!
+Now
 Apply
 Maps
 Visit
@@ -354,8 +351,8 @@ Copyright
 California
 State
 Polytechnic
-University,
-Pomona.
+University
+Pomona
 All
 Rights
 Reserved
@@ -366,7 +363,6 @@ The
 California
 State
 University
-.
 Feedback
 Privacy
 Accessibility

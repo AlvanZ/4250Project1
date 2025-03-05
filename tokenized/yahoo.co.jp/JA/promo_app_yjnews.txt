@@ -1,5 +1,4 @@
 Yahoo!ニュース公式アプリ
--
 Yahoo!ニュース
 Yahoo!ニュース
 大事なニュースがすぐにわかる
@@ -38,16 +37,16 @@ Inc.の商標または登録商標です。
 ・スマートフォンでバーコードを読み取るには、専用のアプリケーションが必要です。→
 バーコードの読み取り方
 ・Copyright
-(C)
+C
 2022
 Apple
-Inc.
+Inc
 All
 rights
-reserved.
+reserved
 ・写真：アフロ
 Yahoo!ニュース
-Yahoo!
+Yahoo
 JAPAN
 プライバシーポリシー
 プライバシーセンター

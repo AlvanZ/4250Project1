@@ -27,14 +27,22 @@ def tokenize(path):
         # get the text from the html, separating by new lines and removing trailing spaces
         text = soup.get_text(separator="\n", strip=True)
 
-        # use regex to remove all non-alphanumeric characters (except for new lines) from the text and replace them with spaces
-        #text = re.sub(r'[^\w\n]', ' ', text)
-
         # split the text by spaces and new lines into a list of words
         words = text.split()
 
+        # remove leading and trailing special characters from each word
+        cleaned_words = []
+
+        for i in range(len(words)):
+            words[i] = words[i].rstrip("_+!@#$?^[]()\{\}-.:;/,\"\'–|")
+            words[i] = words[i].lstrip("_+!@#$?^[]()\{\}-.:;/,\"\'–|")
+
+
+            if words[i] != "":
+                cleaned_words.append(words[i])
+
         # join all the words together, putting a new line between each word
-        text = "\n".join(words)
+        text = "\n".join(cleaned_words)
 
         # create a new file for the tokenized document
         tokenized_file = open(f"tokenized/{path}/{file}", "w", encoding="utf8")

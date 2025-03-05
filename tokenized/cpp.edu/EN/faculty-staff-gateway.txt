@@ -1,7 +1,7 @@
 Faculty
 &
 Staff
-Resources:
+Resources
 Support
 and
 Tools
@@ -44,12 +44,9 @@ news
 events
 future
 students
-|
 current
 students
-|
 families
-|
 faculty
 &
 staff
@@ -63,7 +60,7 @@ Below
 are
 links
 to
-resources,
+resources
 offices
 and
 services
@@ -76,7 +73,7 @@ Poly
 Pomona
 faculty
 and
-staff.
+staff
 Quick
 Links
 Previous
@@ -103,7 +100,7 @@ Advancement
 of
 Faculty
 Excellence
-(CAFE)
+CAFE
 Faculty
 Affairs
 Academic
@@ -163,7 +160,7 @@ Organizational
 Development
 and
 Advancement
-(EODA)
+EODA
 New
 Employee
 Welcome
@@ -255,8 +252,8 @@ Copyright
 California
 State
 Polytechnic
-University,
-Pomona.
+University
+Pomona
 All
 Rights
 Reserved
@@ -267,7 +264,6 @@ The
 California
 State
 University
-.
 Feedback
 Privacy
 Accessibility
