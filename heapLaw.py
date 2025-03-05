@@ -44,7 +44,7 @@ def plot_heaps_law(domain, growth):
     plt.show()
 
 # Directories to process
-directories = ["tokenized/taobao.com/ZH", "tokenized/cpp.edu/EN", "tokenized/yahoo.co.jp/JA"]
+directories = ["stemmed/taobao.com/ZH", "stemmed/cpp.edu/EN", "stemmed/yahoo.co.jp/JA"]
 
 # Generate Heap's Law plots for each domain
 for directory in directories:
